@@ -16,6 +16,7 @@ Read the [project overview](docs/project_overview.md) for the purpose, team, evi
 | [Scope and delivery plan](docs/scope_and_delivery_plan.md) | Boundaries, dated phases, planned activities and decision points |
 | [Discovery and content audit](docs/discovery_and_content_audit.md) | Current-state findings, employee research, benchmarking and outstanding audit work |
 | [Experience and content design](docs/experience_and_content_design.md) | Design principles, proposed content homes and validation criteria |
+| [Content governance and publishing SOP](docs/content_governance_and_publishing_sop.md) | Working end-to-end publishing process, governance decision rights and approval gates |
 | [Decision log](docs/decision_log.md) | Material decisions and their status |
 | [Risk and dependency log](docs/risk_and_dependency_log.md) | Risks, constraints, dependencies and responses |
 | [Ways of working](docs/ways_of_working.md) | Roles, tools and delivery practices |
@@ -23,7 +24,7 @@ Read the [project overview](docs/project_overview.md) for the purpose, team, evi
 
 ## Delivery phases
 
-As at 30 September 2026, the planned phase is **Define and Develop**. Dates and phase names are the planning reference.
+As at 7 October 2026, the planned phase is **Define and Develop**. Dates and phase names are the planning reference.
 
 | Dates (2026) | Phase |
 |---|---|
@@ -47,10 +48,12 @@ Working principles are employee needs first, one authoritative source and multip
 
 The proposed Customers and Communities hub, final information architecture, content placement, ownership and implementation approach still require validation. Current CoMWeb governance guidance and Sally’s preliminary framework remain provisional.
 
+The project is also developing a working content governance and publishing SOP. It will be tested through Deliver 1.0 so that governance, approval and maintenance controls are informed by real publishing activity before transition to business-as-usual.
+
 ## How this documentation is used
 
 **Confluence explains the work. Jira manages the work.** These Markdown files provide a maintainable copy of the project documentation; their presence does not imply changes have been published to Confluence or Jira.
 
-Keep discovery evidence in the discovery document, future design logic in the design document and material decisions in the decision log. Distinguish confirmed decisions from proposed directions and open questions.
+Keep discovery evidence in the discovery document, future design logic in the design document, operational publishing logic in the governance SOP and material decisions in the decision log. Distinguish confirmed decisions from proposed directions and open questions.
 
-The documentation was aligned with `CX Sharepoint Refresh (BLT)(2).pdf` and the project handover on 30 September 2026. The source PDF is referenced rather than stored here.
+The documentation was initially aligned with `CX Sharepoint Refresh (BLT)(2).pdf` and the project handover on 30 September 2026. Later project working updates should preserve the distinction between confirmed organisational decisions and project working artefacts.
