@@ -2,7 +2,7 @@
 
 Status: Draft  
 Current phase: Define and Develop (23 September–13 October 2026)  
-Last updated: 30 September 2026
+Last updated: 7 October 2026
 
 ## Purpose
 
@@ -31,6 +31,7 @@ This creates uncertainty about:
 - define future information architecture and navigation;
 - clarify the CX offer and engagement pathways;
 - define content ownership and maintenance expectations;
+- document and test the content publishing process, governance decision rights and publishing approvals;
 - prototype the future experience;
 - identify the minimum implementation needed.
 
@@ -40,7 +41,8 @@ This creates uncertainty about:
 - creating new content without a demonstrated employee need;
 - duplicating authoritative information already maintained elsewhere;
 - redesigning unrelated internal spaces;
-- custom platform development unless a validated need emerges.
+- custom platform development unless a validated need emerges;
+- creating a separate CX governance policy where organisational governance already applies.
 
 ## Delivery timeline
 
@@ -54,7 +56,7 @@ Dates and phase names are the planning reference. Sprint numbers are omitted bec
 | 14 October–3 November | Define and Deliver 1.0 | Deliver the first version of the CX destination |
 | 4–24 November | Transition to governance and maintenance | Move into ongoing ownership and maintenance cycles |
 
-These dates describe the plan in the BLT deck, not confirmation that each phase or output is complete. On 30 September the project is within the planned Define and Develop period.
+These dates describe the plan in the BLT deck, not confirmation that each phase or output is complete.
 
 ## Scoping: 2–22 September
 
@@ -78,6 +80,20 @@ The three experiences are not specified in the deck. Their scope requires defini
 
 Supporting design work should resolve content inventory and classification, ownership, important inbound links, accessibility and SharePoint feasibility before implementation decisions are finalised.
 
+### Project Manager contribution focus
+
+During the remaining delivery, the Project Manager's focused contribution is to develop the operating process that allows the refreshed experience to remain governable after the project.
+
+The working outputs are:
+
+1. **Content publishing SOP** — document the end-to-end process from identified need or change through source confirmation, ownership, review, approval, publication, QA, maintenance and retirement.
+2. **Governance and decision rights** — capture who owns accuracy, source authority, placement, publishing approval, implementation and ongoing maintenance without inventing new organisational policy.
+3. **Publishing approval controls** — make the minimum gates before publication explicit and test them against real delivery activity.
+
+The working artefact is [Content Governance and Publishing SOP](content_governance_and_publishing_sop.md).
+
+This contribution should not make the Project Manager the permanent content owner, publisher or approval bottleneck.
+
 ## Define and Deliver 1.0: 14 October–3 November
 
 The planned goal is to deliver the first version of the CX destination. The deck explicitly lists an internal change management plan; its remaining weekly activity slots are unfilled.
@@ -89,11 +105,15 @@ Proposed implementation tasks for planning, rather than confirmed deck commitmen
 - preserve or redirect important inbound links;
 - publish reviewed content;
 - verify access, links and accessibility;
-- establish ownership and maintenance controls.
+- establish ownership and maintenance controls;
+- run real publishing activity through the draft governance and publishing SOP;
+- capture exceptions, unclear approvals and handoff gaps as evidence for refinement.
 
 ## Governance and maintenance: 4–24 November
 
 The deck plans a transition into governance and maintenance cycles. Accountable owners, review cadence, publishing controls and retirement rules still need agreement.
+
+The project should use the observed Deliver 1.0 process to confirm the final operating model rather than designing governance only at the end of delivery.
 
 ## Key decision points
 
@@ -105,8 +125,12 @@ The deck plans a transition into governance and maintenance cycles. Accountable 
 - CX offering model;
 - prototype sign-off;
 - implementation feasibility;
-- ownership and maintenance model.
+- ownership and maintenance model;
+- publishing approval pathway and decision rights;
+- review, archive and retirement controls.
 
 ## Source
 
 Primary evidence: `CX Sharepoint Refresh (BLT)(2).pdf`, pages 2-10 and 25.
+
+The Project Manager contribution focus and draft governance/publishing SOP were added as project working direction on 7 October 2026. They are not evidence of final organisational governance approval.
