@@ -253,3 +253,29 @@ The experiment should inform whether existing navigation and search meet the emp
 
 A permanent CX AI agent, custom development or new knowledge store should not be assumed before this evidence exists.
 
+## CoMWeb design review — transcript excerpt (9 October 2026)
+
+**Evidence:** User-supplied Teams transcript excerpt, 0:03–4:13, Dennis Sartorello and Jasmine De Boni. **Status:** Working design feedback; excerpt only. No final prototype approval or publishing authorisation is evidenced. Date is the date this excerpt was documented, not an independently verified meeting date.
+
+### Current work presented
+
+- Dennis reported that the team had audited its page library and identified approximately **60 pages of content** for significant rationalisation. This is the reported audit scale, **not** an agreed number of pages to remove or a completed retirement decision.
+- Mindy's emerging CX 'front door' uses **six employee-need cards** to explain what CX can help with and guide employees to relevant offers, tools and resources. The six exact card labels are not fully captured in this excerpt.
+- The team is working toward a **shallow purple/CoMWeb page structure**, with concise orientation and links out to tools instead of reproducing specialist material on the landing page.
+- The design balances **new visitors** who need context about each CX offer with **returning visitors** who can use quick links to reach known tools directly. Placing every product on the home page was explored but appeared harder for unfamiliar employees to interpret.
+- CX introductory copy was rewritten in employee-oriented language and aligned, where possible, with service catalogue terminology. Examples discussed: understanding who customers are, understanding their experiences and feedback, and improving a service or customer message.
+- Dennis acknowledged the wider **Customers and Communities hub** direction. The team has focused on the CX front door, not yet prototyped the hub aggregation or confirmed exactly how the CX content nests within it.
+
+### Platform guidance confirmed in discussion
+
+Jasmine stated that **the SharePoint global search at the top remains** because it is a site-wide element and cannot simply be removed. The **mega menu remains** as an additional navigation route. **CoMpanion** is positioned as a route for more specific question-and-answer needs. These channels are complementary, not substitutes for a structured CX landing experience.
+
+### Open design questions / next validation
+
+1. Confirm the CX front door's placement and breadcrumb behaviour within the future Customers and Communities hub and global CoMWeb structure.
+2. Validate the six cards and their routes with representative first-time and returning employee tasks, including direct quick links.
+3. Map each card to the relevant CX offer, existing authoritative source and owner; avoid duplicating material on purple pages.
+4. Assess which current pages should be retained, consolidated, linked or retired, including inbound-link and content-owner checks before publishing changes.
+5. Confirm the final interaction between page navigation, the persistent global search, mega menu and CoMpanion without assuming search will be replaced.
+
+**Decision boundary:** This excerpt supports working design direction and one reported SharePoint platform constraint. It does not establish sign-off for the information architecture, a six-card final design, retirement of all 60 pages, or a production deployment.
