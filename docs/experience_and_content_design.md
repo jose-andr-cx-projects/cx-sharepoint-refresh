@@ -294,7 +294,7 @@ Jasmine stated that **the SharePoint global search at the top remains** because 
 
 ### Dependencies and feasibility
 
-- **Mindy / access:** Purple-page authoring access was being arranged. Once available, Mindy intended to test page logic and technical feasibility before committing the design as build-ready.
+- **Mindy / access (superseded by 9 October action):** Purple-page authoring access was being arranged at the time of this internal discussion. Following the CoMWeb alignment session, Jenny supplied two test pages for Mindy; see the sandbox update below. Technical feasibility testing remains outstanding.
 - **Jasmine / alignment:** Dennis expected the discussion with Jasmine to settle how the compact structure fits the broader CoMWeb ambition for flat navigation. This VTT precedes that discussion; the separate Jasmine transcript provides subsequent feedback.
 - **William / feasibility view:** William considered the proposed design possible using modern SharePoint but distinguished platform capability from the implementation team's ability to build it as designed. This is informed opinion, not a completed build test.
 - **Sally / broader structure:** Dennis reported earlier alignment difficulties with Sally and said Jasmine would interface with her. Escalation/coordination was described; resolution was not confirmed.
@@ -313,3 +313,15 @@ Jasmine stated that **the SharePoint global search at the top remains** because 
 The internal meeting describes **~55 pages and five cards**, while the later Dennis–Jasmine excerpt describes **~60 pages and six cards**. These are different reported snapshots of a developing design, not verified final counts. **Do not overwrite either figure or treat them as approvals**; reconcile against the approved content inventory and latest Mindy prototype before publishing metrics or design commitments. The earlier follow-up confirmed persistent global search, mega menu and complementary CoMpanion navigation, which should inform the implementation check.
 
 **Decision boundary:** Agreement to pursue a compact, employee-first prototype and test its feasibility is evidenced. Final card count, information architecture, organisational sign-off, page retirement approvals and production readiness are not established in this internal session.
+
+## CoMWeb sandbox access — action update (9 October 2026)
+
+**Status: Test pages supplied; prototyping next.** Evidence: Teams messages from the *CoMWeb – Sharing and alignment session*, Friday 9 October 2026, 1:00–1:30 pm (user-provided screenshots).
+
+- At 1:27 pm, **Jenny Luong** shared two SharePoint pages for experimentation: **`Mindy1.aspx`**, a clone of the existing Customer Experience page, and **`Mindy2.aspx`**, a blank page.
+- At 1:28 pm, **Mindy Nam** acknowledged access and said she would experiment with the pages on Monday (12 October). Jenny confirmed that she had also created the blank page.
+- Mindy subsequently shared the **CX Front Door Prototype** employee flow and page artefact in the Teams chat. The provided screenshot does not establish that these flows have already been built or validated in the SharePoint sandbox.
+
+**Action — Mindy:** Use the test pages to try the proposed front-door and reusable product-page templates in the real SharePoint environment; check component support, navigation, links, accessibility and any build limitations. Record issues and feed findings into the next design review.
+
+**Dependency update:** Provision of test pages is **resolved**. Completion of the actual SharePoint prototype, permissions scope, technical feasibility and publication approval remain **open**. No live CX pages are approved for replacement based on this evidence.
