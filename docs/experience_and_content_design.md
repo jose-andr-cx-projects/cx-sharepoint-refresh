@@ -279,3 +279,37 @@ Jasmine stated that **the SharePoint global search at the top remains** because 
 5. Confirm the final interaction between page navigation, the persistent global search, mega menu and CoMpanion without assuming search will be replaced.
 
 **Decision boundary:** This excerpt supports working design direction and one reported SharePoint platform constraint. It does not establish sign-off for the information architecture, a six-card final design, retirement of all 60 pages, or a production deployment.
+
+## Internal CX structure working session — full VTT review (recorded 9 October 2026)
+
+**Source:** `Happy Friday!(1).vtt`, user-supplied full internal working-session transcript; speakers include Dennis Sartorello, Mindy Nam, William Moran and José Andrade. **Status:** Reported progress and proposed design, not formal approval. Recording date has not been independently established; 9 October is the documentation date.
+
+### Progress and design proposal
+
+- Dennis reported that the content audit and consolidation into Miro were sufficiently advanced to map the CX product offering, the service catalogue descriptions, branch purpose, and the key products and tools. José described the audit as completed during the meeting.
+- Dennis's proposed leadership update described moving from approximately **55 existing pages** to **one CX front door** with **five employee-need action cards**, followed by grouped CX product pages and links to tools. The transcript's automatic transcription also reads “555 pages” at one point, so the precise baseline should be verified against the content audit before formal reporting.
+- Mindy walked through a working structure: **CoMWeb Customers and Communities hub → CX front door homepage → employee-need cards / product pages → external or authoritative tools**, including examples such as the CX Intel Dashboard, Learning Hub and Service Hub. These are functional levels of navigation/content, not necessarily four nested SharePoint page levels; the team referred to the proposed CX experience as approximately three layers deep.
+- The intent is a compact experience that supports first-time discovery without overwhelming employees with a product catalogue, and connects people quickly to existing tools. Product pages should explain each capability and help employees either self-serve or engage with CX.
+- Mindy has drafted page-flow mockups, employee journeys and a potentially reusable generic page template that could be useful beyond CX. She said the design uses existing SharePoint components rather than introducing new components.
+
+### Dependencies and feasibility
+
+- **Mindy / access:** Purple-page authoring access was being arranged. Once available, Mindy intended to test page logic and technical feasibility before committing the design as build-ready.
+- **Jasmine / alignment:** Dennis expected the discussion with Jasmine to settle how the compact structure fits the broader CoMWeb ambition for flat navigation. This VTT precedes that discussion; the separate Jasmine transcript provides subsequent feedback.
+- **William / feasibility view:** William considered the proposed design possible using modern SharePoint but distinguished platform capability from the implementation team's ability to build it as designed. This is informed opinion, not a completed build test.
+- **Sally / broader structure:** Dennis reported earlier alignment difficulties with Sally and said Jasmine would interface with her. Escalation/coordination was described; resolution was not confirmed.
+
+### Planned next-week outcomes (proposed, not reported as completed)
+
+1. Agree the final set and wording of employee-need cards and the grouping of CX capabilities into product pages.
+2. Finalise reusable page templates, then share draft content with relevant content owners or subject-matter experts for review.
+3. Identify representative employee journeys to demonstrate the experience and agree which journeys should be tested.
+4. Map each tool/product to an existing destination and flag missing links or pages that need creating; do not imply those destinations already exist.
+5. Complete the purple-page feasibility check, document dependencies, and prepare a concise structure/progress playback for CX leadership (Dennis suggested the end of the following week).
+6. José proposed tracking the authoring/access dependency and reporting progress to BLT as the team becomes ready for content building.
+
+### Reconciliation with subsequent CoMWeb discussion
+
+The internal meeting describes **~55 pages and five cards**, while the later Dennis–Jasmine excerpt describes **~60 pages and six cards**. These are different reported snapshots of a developing design, not verified final counts. **Do not overwrite either figure or treat them as approvals**; reconcile against the approved content inventory and latest Mindy prototype before publishing metrics or design commitments. The earlier follow-up confirmed persistent global search, mega menu and complementary CoMpanion navigation, which should inform the implementation check.
+
+**Decision boundary:** Agreement to pursue a compact, employee-first prototype and test its feasibility is evidenced. Final card count, information architecture, organisational sign-off, page retirement approvals and production readiness are not established in this internal session.
