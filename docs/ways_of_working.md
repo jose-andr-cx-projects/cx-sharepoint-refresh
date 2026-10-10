@@ -113,7 +113,7 @@ Project operating model established during scoping; current evidence updated fro
 
 ### Publishing workflow status
 
-As of 10 October 2026, GitHub now versions both `bitbucket-pipelines.yml` and `scripts/publish_confluence.py`. The **current proposed pipeline** is manually triggered, has separate read-only validation and publish commands, requests lowercase `cex` and checks observed space ID `68452354`, and targets four existing `SP-Refresh` Confluence pages. It **does not create Jira records**. The previous all-in-one pipeline that created/reused a Jira Deliverable is superseded for this publishing route. **Read-only Confluence validation passed on 10 October 2026; publication has not been run or verified.** Bitbucket's running copy may differ until the repository is synchronised from GitHub; don't assume a GitHub commit updates Bitbucket automatically.
+As of 10 October 2026, GitHub now versions both `bitbucket-pipelines.yml` and `scripts/publish_confluence.py`. The **current proposed pipeline** is manually triggered, has separate read-only validation and publish commands, requests lowercase `cex` and checks observed space ID `68452354`, and targets four existing `SP-Refresh` Confluence pages. It **does not create Jira records**. The previous all-in-one pipeline that created/reused a Jira Deliverable is superseded for this publishing route. **Read-only validation and the first controlled four-page publication both succeeded in Bitbucket on 10 October 2026 (build log screenshots). A post-publication visual/content review in Confluence is still outstanding.** Bitbucket's running copy may differ until the repository is synchronised from GitHub; don't assume a GitHub commit updates Bitbucket automatically.
 
 **Boundary:** Bitbucket is the official controlled project repository and pipeline execution environment; Confluence and Jira are the organisational records for published knowledge and delivery. GitHub is a convenient collaboration mirror for ChatGPT-supported work and is not the organisational source of truth.
 
@@ -141,5 +141,17 @@ Bitbucket `validate-confluence-targets` completed successfully (build log screen
 | SP-Refresh - Scoping Playback | `1575845898` |
 
 - Log concluded `READ-ONLY VALIDATION PASSED` and `No pages created or updated.`
-- **Next gate:** Before any publishing run, confirm target-space ownership, ensure manual page edits are preserved or knowingly replaced, and explicitly approve publication. The mirrored script includes a `CONFLUENCE_TARGETS_APPROVED=true` publication gate; no such approval or successful write test has been recorded.
+- **Next gate:** Before any publishing run, confirm target-space ownership, ensure manual page edits are preserved or knowingly replaced, and explicitly approve publication. The mirrored script includes a `CONFLUENCE_TARGETS_APPROVED=true` publication gate; explicit user approval was given and the Bitbucket publishing command included this gate; the four API updates completed.
 - Maintain the Bitbucket-tested implementation as operational authority. Sync validated changes into the GitHub collaboration mirror, not the other way around by default.
+
+
+### Controlled publishing run — 10 October 2026
+
+**Evidence:** User-supplied Bitbucket build log screenshot. The explicit publish command was `CONFLUENCE_TARGETS_APPROVED=true PUBLISH_MODE=publish python3 scripts/publish_confluence.py`.
+
+- Confluence returned key `CS` and space ID `68452354`, matching the previously tested target ID.
+- Preflight uniquely resolved all four mapped pages.
+- The build reported `UPDATED` for page IDs `1575911428`, `1576009731`, `1577189386`, and `1575845898`.
+- Final output: `Four existing pages updated. No Jira operations performed.`
+- **Verified:** Pipeline reached four successful Confluence API update calls without a reported runtime failure. **Not yet verified:** visual presentation, content fidelity, completeness, links, formatting, or whether readers see the intended output. Review these in Confluence before treating publication quality as approved.
+- **Operating rule:** Bitbucket remains the official publishing implementation and source. GitHub mirrors the tested implementation for collaboration. Keep the manual validation run before publishing; explicit `CONFLUENCE_TARGETS_APPROVED=true` enables the write step and must be used only following human approval.
