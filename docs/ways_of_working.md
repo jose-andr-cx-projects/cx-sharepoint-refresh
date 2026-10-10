@@ -155,3 +155,23 @@ Bitbucket `validate-confluence-targets` completed successfully (build log screen
 - Final output: `Four existing pages updated. No Jira operations performed.`
 - **Verified:** Pipeline reached four successful Confluence API update calls without a reported runtime failure. **Not yet verified:** visual presentation, content fidelity, completeness, links, formatting, or whether readers see the intended output. Review these in Confluence before treating publication quality as approved.
 - **Operating rule:** Bitbucket remains the official publishing implementation and source. GitHub mirrors the tested implementation for collaboration. Keep the manual validation run before publishing; explicit `CONFLUENCE_TARGETS_APPROVED=true` enables the write step and must be used only following human approval.
+
+
+### Reimport end-to-end test — 10 October 2026
+
+**Evidence:** User-supplied Bitbucket pipeline build #1 screenshot after deleting/recreating the Bitbucket repository and importing from the GitHub collaboration mirror. **Result: Passed for import and publishing execution.**
+
+- Bitbucket branch: `main`; displayed source commit: `5e8e39d` (*Refresh Experience and Content Design last-updated metadata*).
+- Custom pipeline: `publish-to-existing-confluence-pages`; execution completed successfully in 21 seconds (observed screenshot).
+- Execution used `CONFLUENCE_TARGETS_APPROVED=true PUBLISH_MODE=publish python3 scripts/publish_confluence.py`.
+- Confirmed Confluence response: API key `CS`, space ID `68452354`.
+- All four existing page targets resolved and successfully returned `UPDATED` in the build log:
+  - Project Management: `1575911428` (30,796 HTML characters)
+  - Discovery and Content Audit: `1576009731` (6,554 HTML characters)
+  - Experience and Content Design: `1577189386` (21,622 HTML characters)
+  - Scoping Playback: `1575845898` (2,910 HTML characters)
+- Build reported: `Four existing pages updated; no Jira operations performed.`
+
+**Boundary of verification:** This establishes that the recreated Bitbucket repository could execute the imported publishing files and update all four existing pages in Confluence. It does **not** independently confirm exact content fidelity, visual formatting, links, accessibility or that every published document's Last updated metadata was refreshed correctly. Check these separately in Confluence. The date-stamping GitHub workflow's automatic execution and future mirror synchronisation are also not demonstrated by this test.
+
+**Architectural result:** Keep the current manual GitHub collaboration mirror → Bitbucket official repository → Confluence controlled publishing workflow. No further sync optimisation is required at this stage.
