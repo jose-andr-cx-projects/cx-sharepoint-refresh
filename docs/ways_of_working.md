@@ -1,7 +1,7 @@
 # Ways of Working
 
 Status: Draft  
-Last updated: 30 September 2026
+Last updated: 10 October 2026
 
 ## Working rule
 
