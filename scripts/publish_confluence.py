@@ -1,4 +1,5 @@
 import base64
+from datetime import datetime
 import html
 import json
 import os
@@ -104,11 +105,87 @@ def find_unique(title):
 
 def render(filenames):
     sections = []
+    dates = []
     for filename in filenames:
         path = Path('docs') / filename
         if not path.is_file():
             raise RuntimeError(f'Missing source document {path}')
         source = path.read_text(encoding='utf-8')
+        # Page metadata is the newest Last updated field among contributing files.
+        # Only recognise top-level document metadata, not dates quoted in evidence.
+        header = source.split('\n## ', 1)[0]
+        matches = re.findall(r'(?m)^Last updated:\s*(.+?)\s*
+        # Official-only publishing boundary: reject collaboration-only references.
+        # Run in BOTH validation and publication, before any Confluence writes.
+        prohibited = re.search(
+            r'(?i)github|collaboration mirror|collaboration workspace|'
+            r'github[ ]*[→-][ ]*bitbucket',
+            source,
+        )
+        if prohibited:
+            raise RuntimeError(
+                f'Official publishing content check failed in {path}: '
+                f'found {prohibited.group(0)!r}. '
+                'Remove unofficial workflow references before publishing.'
+            )
+        # Avoid broken repository-relative Markdown links in Confluence.
+        source = re.sub(r'\[([^\]]+)\]\((?:\.\./)?docs/[^)]+\.md\)', r'\1', source)
+        source = re.sub(r'\[([^\]]+)\]\([a-zA-Z0-9_./-]+\.md\)', r'\1', source)
+        sections.append(markdown.markdown(source, extensions=['tables'], output_format='xhtml'))
+    newest = max(dates)
+    date_display = f'{newest.day} {newest.strftime("%B %Y")}'
+    # A single authoritative page-level date; section dates remain intact.
+    return (
+        f'<p><strong>Page last updated: {html.escape(date_display)}</strong></p>'
+        + '\n<hr/>\n'.join(sections)
+    )
+
+
+# Resolve all targets and source documents before any writes.
+resolved = [(title, find_unique(title), render(names)) for title, names in targets.items()]
+for title, page, body in resolved:
+    print(f'OK: {title} (page ID {page["id"]}; HTML {len(body)} chars)')
+
+if MODE == 'validate':
+    print('READ-ONLY VALIDATION PASSED — no pages created or updated.')
+else:
+    # Validation succeeded; publishing still requires explicit approval.
+    if os.environ.get('CONFLUENCE_TARGETS_APPROVED') != 'true':
+        raise RuntimeError('Publishing blocked: explicit approval required')
+    # Publishing replaces the full body of each existing Confluence page.
+    for title, page, body in resolved:
+        current = api('GET', f'/wiki/api/v2/pages/{page["id"]}?body-format=storage')
+        if str(current.get('spaceId')) != space_id or current.get('title') != title:
+            raise RuntimeError(f'Page identity changed for {title}; stopping')
+        version = current['version']['number']
+        commit = html.escape(os.environ.get('BITBUCKET_COMMIT', 'unknown'))
+        footer = (
+            '<hr/><p>Generated from CX SharePoint Refresh Markdown; '
+            f'Bitbucket commit: {commit}. '
+            'Review status remains as marked in source documents.</p>'
+        )
+        payload = {
+            'id': str(page['id']),
+            'spaceId': space_id,
+            'status': 'current',
+            'title': title,
+            'body': {'representation': 'storage', 'value': body + footer},
+            'version': {
+                'number': version + 1,
+                'message': 'Sync from controlled project Markdown',
+            },
+        }
+        api('PUT', f'/wiki/api/v2/pages/{page["id"]}', payload)
+        print(f'UPDATED: {title} (page ID {page["id"]})')
+    print('Four existing pages updated; no Jira operations performed.')
+, header)
+        if len(matches) != 1:
+            raise RuntimeError(f'Expected one Last updated header in {path}')
+        try:
+            dates.append(datetime.strptime(matches[0].strip(), '%d %B %Y').date())
+        except ValueError as exc:
+            raise RuntimeError(f'Invalid Last updated date in {path}: {matches[0]}') from exc
+
         # Official-only publishing boundary: reject collaboration-only references.
         # Run in BOTH validation and publication, before any Confluence writes.
         prohibited = re.search(
