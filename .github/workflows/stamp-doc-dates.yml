@@ -28,9 +28,7 @@ jobs:
             files=$(git diff --name-only "$BEFORE" "$AFTER" -- docs)
           fi
           if [ -n "$files" ]; then
-            printf '%s\\n' "$files" | while IFS= read -r path; do
-              python scripts/stamp_doc_dates.py "$path"
-            done
+            python scripts/stamp_doc_dates.py $files
           fi
       - name: Commit updated metadata
         run: |
