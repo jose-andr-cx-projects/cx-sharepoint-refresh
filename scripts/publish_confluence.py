@@ -111,10 +111,16 @@ def render(filenames):
         if not path.is_file():
             raise RuntimeError(f'Missing source document {path}')
         source = path.read_text(encoding='utf-8')
-        # Page metadata is the newest Last updated field among contributing files.
-        # Only recognise top-level document metadata, not dates quoted in evidence.
+        # Use the latest source-document update for the Confluence page date.
+        # Search only the document header, not dates in historical evidence.
         header = source.split('\n## ', 1)[0]
-        matches = re.findall(r'(?m)^Last updated:\s*(.+?)\s*
+        matches = re.findall(r'(?m)^Last updated:[ \t]*(.+?)[ \t]*$', header)
+        if len(matches) != 1:
+            raise RuntimeError(f'Expected one Last updated field in {path}')
+        try:
+            dates.append(datetime.strptime(matches[0].strip(), '%d %B %Y').date())
+        except ValueError as exc:
+            raise RuntimeError(f'Invalid Last updated date in {path}: {matches[0]}') from exc
         # Official-only publishing boundary: reject collaboration-only references.
         # Run in BOTH validation and publication, before any Confluence writes.
         prohibited = re.search(
