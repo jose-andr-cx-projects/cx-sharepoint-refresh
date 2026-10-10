@@ -2,7 +2,7 @@
 
 Status: Draft  
 Current phase: Define and Develop (23 September–13 October 2026)  
-Last updated: 30 September 2026
+Last updated: 10 October 2026
 
 ## Purpose
 
