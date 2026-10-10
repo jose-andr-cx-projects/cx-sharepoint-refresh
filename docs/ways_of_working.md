@@ -113,6 +113,14 @@ Project operating model established during scoping; current evidence updated fro
 
 ### Publishing workflow status
 
-The preserved Bitbucket publishing pipeline is intended to read Markdown project docs and publish lightweight views to Confluence while creating or reusing a Jira Deliverable. Earlier execution encountered a Confluence-space-resolution problem involving `CONFLUENCE_SPACE_KEY`. **Publishing is not verified as fixed**. Do not mistake saved YAML, configured variables or a completed repository import for a validated migration.
+As of 10 October 2026, GitHub now versions both `bitbucket-pipelines.yml` and `scripts/publish_confluence.py`. The **current proposed pipeline** is manually triggered, has separate read-only validation and publish commands, resolves the exact lowercase `cex` space, and targets four existing `SP-Refresh` Confluence pages. It **does not create Jira records**. The previous all-in-one pipeline that created/reused a Jira Deliverable is superseded for this publishing route. **Confluence validation and publication are not yet verified as passing.** Bitbucket's running copy may differ until the repository is synchronised from GitHub; don't assume a GitHub commit updates Bitbucket automatically.
 
 **Boundary:** GitHub retains the maintained project Markdown mirror; Bitbucket provides the organisational pipeline/execution surface; Confluence and Jira remain the organisational systems for published documentation and delivery records, respectively.
+
+
+### Controlled publishing code
+
+- Source-controlled files: `bitbucket-pipelines.yml` and `scripts/publish_confluence.py` in the GitHub mirror.
+- Import or synchronise those same revisions into Bitbucket before running its pipelines. Do not maintain a separate edited Bitbucket-only version.
+- Execute `validate-confluence-targets` first. Only after reviewing all four target matches and manual content changes should `publish-to-existing-confluence-pages` be run.
+- Credentials remain exclusively in Bitbucket variables, never in repository files.
