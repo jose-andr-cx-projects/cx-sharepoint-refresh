@@ -68,9 +68,13 @@ def all_results(path):
 direct = api('GET', '/wiki/rest/api/space/' + quote(SPACE_KEY, safe=''))
 print('Direct space key:', direct.get('key'))
 print('Direct space ID:', direct.get('id'))
-if direct.get('key') != SPACE_KEY or not direct.get('id'):
-    raise RuntimeError('Direct space lookup did not resolve the exact cex space')
+# Bitbucket read-only validation found all four pages in the observed space.
+EXPECTED_SPACE_ID = '68452354'
+if not direct.get('id'):
+    raise RuntimeError('Confluence space ID is missing')
 space_id = str(direct['id'])
+if space_id != EXPECTED_SPACE_ID:
+    raise RuntimeError('Unexpected Confluence space ID; stopping')
 
 targets = {
     'SP-Refresh - Project Management': [
@@ -120,6 +124,9 @@ for title, page, body in resolved:
 if MODE == 'validate':
     print('READ-ONLY VALIDATION PASSED — no pages created or updated.')
 else:
+    # Validation succeeded; publishing still requires explicit approval.
+    if os.environ.get('CONFLUENCE_TARGETS_APPROVED') != 'true':
+        raise RuntimeError('Publishing blocked: explicit approval required')
     # Publishing replaces the full body of each existing Confluence page.
     for title, page, body in resolved:
         current = api('GET', f'/wiki/api/v2/pages/{page["id"]}?body-format=storage')
