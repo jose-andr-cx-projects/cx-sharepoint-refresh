@@ -1,0 +1,17 @@
+# Manual-only. Run read-only validation before publishing existing Confluence pages.
+image: python:3.12-slim
+
+pipelines:
+  custom:
+    validate-confluence-targets:
+      - step:
+          name: Validate existing Confluence pages (read-only)
+          script:
+            - python3 -m pip install --disable-pip-version-check 'Markdown==3.7'
+            - PUBLISH_MODE=validate python3 scripts/publish_confluence.py
+    publish-to-existing-confluence-pages:
+      - step:
+          name: Update four existing Confluence pages (writes content)
+          script:
+            - python3 -m pip install --disable-pip-version-check 'Markdown==3.7'
+            - PUBLISH_MODE=publish python3 scripts/publish_confluence.py
