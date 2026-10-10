@@ -14,4 +14,4 @@ pipelines:
           name: Update four existing Confluence pages (writes content)
           script:
             - python3 -m pip install --disable-pip-version-check 'Markdown==3.7'
-            - PUBLISH_MODE=publish python3 scripts/publish_confluence.py
+            - CONFLUENCE_TARGETS_APPROVED=true PUBLISH_MODE=publish python3 scripts/publish_confluence.py
