@@ -109,6 +109,19 @@ def render(filenames):
         if not path.is_file():
             raise RuntimeError(f'Missing source document {path}')
         source = path.read_text(encoding='utf-8')
+        # Official-only publishing boundary: reject collaboration-only references.
+        # Run in BOTH validation and publication, before any Confluence writes.
+        prohibited = re.search(
+            r'(?i)github|collaboration mirror|collaboration workspace|'
+            r'github[ ]*[→-][ ]*bitbucket',
+            source,
+        )
+        if prohibited:
+            raise RuntimeError(
+                f'Official publishing content check failed in {path}: '
+                f'found {prohibited.group(0)!r}. '
+                'Remove unofficial workflow references before publishing.'
+            )
         # Avoid broken repository-relative Markdown links in Confluence.
         source = re.sub(r'\[([^\]]+)\]\((?:\.\./)?docs/[^)]+\.md\)', r'\1', source)
         source = re.sub(r'\[([^\]]+)\]\([a-zA-Z0-9_./-]+\.md\)', r'\1', source)
