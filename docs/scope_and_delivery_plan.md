@@ -2,7 +2,7 @@
 
 Status: Draft  
 Current phase: Define and Develop (23 September–13 October 2026)  
-Last updated: 7 October 2026
+Last updated: 12 October 2026
 
 ## Purpose
 
@@ -134,3 +134,37 @@ The project should use the observed Deliver 1.0 process to confirm the final ope
 Primary evidence: `CX Sharepoint Refresh (BLT)(2).pdf`, pages 2-10 and 25.
 
 The Project Manager contribution focus and draft governance/publishing SOP were added as project working direction on 7 October 2026. They are not evidence of final organisational governance approval.
+
+
+## Jira traceability and next delivery-phase planning — 12 October 2026
+
+**Operating-model reference:** [Ways of Working](ways_of_working.md), 12 October shift. Jira is a Project Manager-maintained, evidence-based milestone record; the team continues working in Miro, Figma, Teams and workshops.
+
+### Existing scoping and delivery-foundation links
+
+- **CFT-2991:** Set up Confluence project pages — project documentation and publishing structure.
+- **CFT-2992:** Set up Jira initiative and Scoping deliverable — original delivery hierarchy.
+- **CFT-2993:** Confirm working rhythm — documented working pattern and 12 October adjustment.
+- **CFT-2994:** Engage Digital team — current Digital design direction; platform feasibility remains separate.
+- **CFT-2995:** Confirm SharePoint upgrade implications — open dependency, not proven complete.
+- **CFT-2996:** Prepare Scoping playback — see [Scoping Playback](scoping_playback.md).
+
+### Proposed Jira outcome tickets — Define and Deliver 1.0 (14 October–3 November)
+
+The following are **draft new tickets without assigned Jira keys**. Add to the existing active phase and suitable epics only after checking live Jira hierarchy and avoiding duplicates. They describe milestone outcomes, not daily work assignments.
+
+| Draft ticket title | Acceptance / evidence required | Suggested evidence home |
+|---|---|---|
+| Confirm approved CX landing page and content structure | Workshop outcome recorded; landing-page purpose, proposed up-to-10-page structure, content placement and open decisions clear | Experience and Content Design |
+| Validate SharePoint experience feasibility | Mindy/implementation/Digital assessment documented; supported components, workarounds and unresolved constraints distinguished | Experience and Content Design; Risk and Dependency Log |
+| Agree and prepare priority CX content for publication | Priority content has disposition (update, consolidate, link, archive or retire), authoritative location and named review owner; no blanket migration | Discovery and Content Audit |
+| Build CX destination 1.0 and navigation | Agreed page structure implemented in target SharePoint environment, with evidence/links to built pages | Experience and Content Design |
+| Validate published journeys, links, access and accessibility | Representative employee routes checked; priority links/accessibility issues recorded and resolved or explicitly accepted | Experience and Content Design; Risk and Dependency Log |
+| Pilot publishing SOP and confirm approval controls | At least one actual content change follows review, approval, publication and QA steps; gaps and decision rights logged | Content Governance and Publishing SOP |
+| Prepare release communication and governance handover | Internal change communication ready; ongoing content ownership, review and maintenance actions identified | Scope and Delivery Plan; Content Governance and Publishing SOP |
+
+**Sequencing note:** the workshop's first intended outcome is agreement on structure and content allocation. Subsequent content drafting, SharePoint build, quality checks and governance testing follow as evidence and feasibility permit. The table is a proposal for Jira creation, not a claim that these deliverables are committed, assigned or completed.
+
+### Two-way link rule
+
+Once Jira tickets are created, insert their actual keys beside these draft titles and on each relevant Confluence page. Put a reciprocal Confluence evidence link in every Jira ticket, and check both directions after publication. Never invent Jira keys or Confluence URLs.
