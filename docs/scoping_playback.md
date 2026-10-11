@@ -1,7 +1,7 @@
 # Scoping Playback
 
 Status: Draft  
-Last updated: 30 September 2026
+Last updated: 12 October 2026
 
 ## Playback purpose
 
@@ -110,3 +110,12 @@ By 13 October 2026, return with:
 ## Source
 
 Primary evidence: `CX Sharepoint Refresh (BLT)(2).pdf`, pages 2-25.
+
+
+## Jira tracking
+
+- **CFT-2996 — Prepare Scoping playback:** this page is the durable evidence of playback preparation. Preparation does not itself prove that leadership approval occurred.
+- **CFT-2981 — Conduct BLT discovery conversations:** see recorded input and proposed validation decisions above.
+- **CFT-2985 — Confirm the role of CX SharePoint:** the content-home model is a working proposal, not automatically a signed-off outcome.
+
+Add the published Confluence URL to each relevant Jira ticket when available. Do not treat GitHub publication alone as Jira synchronisation.
