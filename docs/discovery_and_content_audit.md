@@ -2,7 +2,7 @@
 
 Status: Draft  
 Current phase: Define and Develop (23 September–13 October 2026)  
-Last updated: 30 September 2026
+Last updated: 12 October 2026
 
 ## Purpose
 
@@ -165,3 +165,19 @@ Primary evidence: `CX Sharepoint Refresh (BLT)(2).pdf`, pages 6-18 and 24.
 The 12 interviewees were employees across CX. Findings should inform design, but do not establish organisation-wide prevalence or validation by employees outside CX. No quantitative task-success or findability baseline is reported in the deck.
 
 The complete content inventory, additional purple pages, inbound-link audit, final ownership, final information architecture and implementation feasibility remain unresolved.
+
+
+## Jira tracking — scoping evidence
+
+| Stream | Existing Jira ticket(s) | Evidence boundary |
+|---|---|---|
+| Current-state review and content locations | CFT-2976, CFT-2977 | Initial review and content-home map; full page/link audit not yet demonstrated |
+| SharePoint usage metrics | CFT-2978 | No quantitative completion evidence confirmed |
+| Audiences and interviews | CFT-2980, CFT-2982 | 12 CX interviews; broader audience validation remains open |
+| BLT discovery and CX SharePoint role | CFT-2981, CFT-2985 | Direction captured; final agreement requires confirmation |
+| Benchmarking | CFT-2983 | Findings documented |
+| Initial inventory, candidate content and classification | CFT-2986, CFT-2987, CFT-2988 | Framework and initial register exist; complete item-level work outstanding |
+| Ownership gaps | CFT-2989 | Risk recorded; owners not fully confirmed |
+| Digital input and platform feasibility | CFT-2994, CFT-2995 | Digital guidance documented; implementation feasibility pending |
+
+Each Jira issue should link back to this authoritative project evidence page (or its published Confluence equivalent). Links are not claimed to be reciprocal until confirmed in Jira.
