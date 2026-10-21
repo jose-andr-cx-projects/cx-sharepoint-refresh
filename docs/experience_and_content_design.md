@@ -325,3 +325,77 @@ The internal meeting describes **~55 pages and five cards**, while the later Den
 **Action — Mindy:** Use the test pages to try the proposed front-door and reusable product-page templates in the real SharePoint environment; check component support, navigation, links, accessibility and any build limitations. Record issues and feed findings into the next design review.
 
 **Dependency update:** Provision of test pages is **resolved**. Completion of the actual SharePoint prototype, permissions scope, technical feasibility and publication approval remain **open**. No live CX pages are approved for replacement based on this evidence.
+
+
+## Customers and Communities Hub — proposed content and destination model (21 October 2026)
+
+**Source:** User-provided `NEW PAGE Customers and Communities Hub.docx` (2 pages), reviewed 21 October 2026.  
+**Status:** Proposed content / working design input. This document is not evidence of final Digital governance approval, validated links, released pages, or completion of stakeholder review. Where it says "needs review" or "refer to draft", retain that status.
+
+### Hub purpose and interaction
+
+The proposed hub serves three complementary functions:
+
+1. **Orientation:** Help employees recognise where to start.
+2. **Navigation:** Direct employees to the most relevant guidance or tool.
+3. **Action:** Provide immediate access to common tasks.
+
+Proposed introductory copy: "Tools, guidance and support to help you understand customers and communities, improve experiences and delivery better outcomes." Retain as source wording for editorial review, including the phrase "delivery better outcomes".
+
+### Proposed employee-need routes
+
+| Employee need | Proposed destinations | Validation notes |
+|---|---|---|
+| Understand customers and communities | Customer Segments and Modes (new page); Voice of Customer (updated page); Knowledge Bank; Neighbourhood Partners | Segments and Modes draft and associated RESOURCE BRIEF to be read together; Voice of Customer draft referenced |
+| Plan engagement | Community Engagement and Impact (Community Development); Community Engagement Playbook; Community Engagement Policy; Community Engagement Request Form; Gender Impact Assessment | Community Engagement and Impact needs stakeholder review; Playbook needs all-of-CoM permission and link to authoritative source |
+| Improve customer experiences | Improving a customer or community experience (new page, aka CX Uplift CTA); Five Plays (link to Segments and Modes); Customer Improvement Action Plan (new page, aka SMART template); Improving customer communications (updated page) | Linked drafts referenced; do not create a second Five Plays source |
+| Manage feedback and complaints | Complaints management; relevant operational support and governance policies/pages | Complaints management draft referenced; link to authoritative policies |
+| Build your capability | Training, Support and Resources (updated); Understand and use PenPal Email (new page); Learning Hub | PenPal content proposed for migration from Digital Dashboard; review original, source and links before moving |
+| Get support | Working with the Contact Centre; Customer Experience Branch; Community Development Branch; People search; CoMpanion | Contact Centre and CX branch drafts referenced; confirm actual destinations and ownership |
+
+**Frequently used tools:** Segments and Modes; Customer Improvement Action Plan; PenPal email; Service Hub.  
+**Need help route:** Contact relevant team, find a colleague or use CoMpanion.
+
+### Content roles and non-duplication
+
+- **Improving a customer or community experience** is the primary entry point for employees undertaking improvement work.
+- **Customer Segments and Modes** supports understanding customers and selecting an appropriate mode; the developed Five Plays content belongs here, not on multiple pages.
+- **CX Improvement Action Plan / SMART Template** is a separate practical resource for recording findings, decisions and actions throughout improvement work.
+- **Voice of Customer** supplies evidence and insights relevant at any stage.
+- **CoMpanion** supports decisions and locating guidance; it does not replace authoritative policy or published tools.
+- **Customer experience at CoM** and **Our Customer Commitments** content is proposed to be refreshed, summarised and incorporated into **Improving customer communications**, rather than repeated as separate page content.
+
+### Content-home recommendations from this source
+
+| Content type or item | Proposed primary location |
+|---|---|
+| Branch/team pages; mailroom and courier services | Working at CoM Hub |
+| Customer Service Charter | Authoritative policy/source location |
+| Executive Correspondence Guide | Authoritative guide, linked contextually |
+| Salesforce technical instructions | Relevant system guide or training source |
+| CX tools, improvement guidance and customer insights | Customers and Communities Hub |
+| Task guidance (e.g., Using PenPal Email) | Dedicated operational page |
+| Learning and development (e.g., Good Case modules) | Training, Support and Resources |
+| System access/technical information (e.g., Salesforce/Genesys access) | Relevant systems or Digital Dashboard |
+
+These are **proposed locations**, not a mandate to migrate governed content. Verify authoritative owners, permissions and inbound links before moving or retiring anything.
+
+### Design and governance guidance from the source
+
+1. **One primary destination per task:** Related pages may link to a resource but should not duplicate its contents.
+2. **Policies remain authoritative:** The hub enables practical orientation and interpretation without creating a second policy repository.
+3. **Accordions used sparingly:** Suitable for Five Plays and complaint tiers, but should not hide critical actions or become a mechanism for accumulating content.
+4. **Useful specialist guidance:** Support professional judgement rather than over-prescribing familiar operational steps.
+5. **Future-ready community engagement:** Allow integration without forcing community engagement activities into a CX-specific operating model.
+
+### Alignment and remaining checks
+
+This proposed six-route hub design develops the existing employee-needs-first / one-authoritative-source / minimum-useful-experience principles. It is the **broader Customers and Communities Hub**, not automatically the same as the CX branch Level 1 homepage plus eight proposed Level 2 pages. Preserve the distinction pending validation of navigation hierarchy and page mapping.
+
+Before publication:
+- Reconcile hub routes and the current CX front-door prototype; confirm which proposed pages are part of the CX branch scope versus broader community content.
+- Review Community Engagement and Impact with its stakeholder, and confirm Community Engagement Playbook organisation-wide access and authoritative destination.
+- Verify destination URLs, content ownership, permissions and links to source guidance for all six routes and frequently used tools.
+- Validate the proposed relocation or summarisation of PenPal, Customer Commitments and Customer Experience content against their existing source owners and important inbound links.
+- Check titles/copy, accessibility, SharePoint feasibility, and whether accordions obscure critical information.
+- Apply the project's publishing SOP and relevant CoMWeb/Digital approval gates; stakeholder critique is not formal publication approval.
