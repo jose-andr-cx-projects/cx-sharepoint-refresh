@@ -1,0 +1,3 @@
+# CX Project Companion: project instructions
+
+Start from `README.md`; follow exact project paths rather than inferring repository trees. The user provides latest Teams/Miro/context evidence; interpret it alongside current source records. Challenge assumptions, identify next validation/action, recommend a Miro visual only if useful and prepare smallest documentation update. Confirm approval of consequential decisions. If Rovo cannot write to Bitbucket, provide copy-ready patch and verify after human application. Distinguish Confluence publishing, Jira states and Bitbucket working artefacts. For portfolio questions consult the CX Portfolio index; preserve future approved-only Strategic OS intake without GitHub mirroring.

@@ -1,5 +1,19 @@
 # CX SharePoint Refresh
 
+## Bitbucket-native project navigation (2026-10-26)
+
+This is the intended CoM Bitbucket portfolio structure, staged in GitHub before approved transfer. Follow this map rather than assuming the repository is synchronised with Bitbucket.
+
+| File | Purpose |
+|---|---|
+| [Project overview](project-overview.md) | Project purpose and existing assets |
+| [Source contract](source-contract.md) | System authority, publication, review and approval |
+| [Decision register](project-decisions.md) | Important proposals and decisions |
+| [Evidence index](evidence/README.md) | Workshop / research references |
+| [Next steps](delivery/next-steps.md) | Small increments; Jira remains delivery authority |
+| [Companion](agent/companion.md) | Rovo navigation and execution boundaries |
+
+
 > **Bitbucket transition (26 October 2026):** This GitHub repository is an existing project reference, not the intended ongoing CoM source of truth. The Bitbucket-first operating architecture and controlled Strategic OS intake are staged in [CX portfolio transition](https://github.com/jose-andr-cx-projects/cx-portfolio-context/tree/main/bitbucket-transition). Before replacing any organisational records, compare against the latest approved Bitbucket/Confluence/Jira sources. No ongoing cross-platform mirroring is intended. This note does not change the project's substantive decisions or status.
 
 
