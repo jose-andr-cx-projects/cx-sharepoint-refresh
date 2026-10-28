@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "pages": [
+    {
+      "id": "project-management",
+      "title": "SP-Refresh - Project Management",
+      "sections": [
+        {
+          "file": "docs/project_overview.md",
+          "heading": "Summary"
+        },
+        {
+          "file": "docs/project_overview.md",
+          "heading": "Project outcome"
+        },
+        {
+          "file": "docs/decision_log.md",
+          "heading": "Decision register"
+        }
+      ]
+    },
+    {
+      "id": "discover-define",
+      "title": "SP-Refresh - Discover and Define",
+      "taxonomy": {
+        "level": "4Ds",
+        "stages": [
+          "Discover",
+          "Define"
+        ]
+      },
+      "sections": [
+        {
+          "file": "docs/discovery_and_content_audit.md",
+          "heading": "Current-state findings"
+        },
+        {
+          "file": "docs/discovery_and_content_audit.md",
+          "heading": "Emerging opportunities"
+        }
+      ]
+    },
+    {
+      "id": "develop",
+      "title": "SP-Refresh - Develop",
+      "taxonomy": {
+        "level": "4Ds",
+        "stages": [
+          "Develop"
+        ]
+      },
+      "sections": [
+        {
+          "file": "docs/experience_and_content_design.md",
+          "heading": "Experience principles"
+        },
+        {
+          "file": "docs/experience_and_content_design.md",
+          "heading": "Prototype scenarios"
+        }
+      ]
+    }
+  ]
+}
