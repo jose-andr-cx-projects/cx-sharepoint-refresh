@@ -17,7 +17,19 @@
           "file": "docs/decision_log.md",
           "heading": "Decision register"
         }
-      ]
+      ],
+      "work": {
+        "level": "project-management",
+        "stages": []
+      },
+      "information_types": [
+        "project-profile",
+        "decision"
+      ],
+      "governance": {
+        "publication": "preview-only",
+        "approval": "required"
+      }
     },
     {
       "id": "discover-define",
@@ -38,7 +50,23 @@
           "file": "docs/discovery_and_content_audit.md",
           "heading": "Emerging opportunities"
         }
-      ]
+      ],
+      "work": {
+        "level": "4Ds",
+        "stages": [
+          "Discover",
+          "Define"
+        ]
+      },
+      "information_types": [
+        "evidence",
+        "insight",
+        "opportunity"
+      ],
+      "governance": {
+        "publication": "preview-only",
+        "approval": "required"
+      }
     },
     {
       "id": "develop",
@@ -58,7 +86,21 @@
           "file": "docs/experience_and_content_design.md",
           "heading": "Prototype scenarios"
         }
-      ]
+      ],
+      "work": {
+        "level": "4Ds",
+        "stages": [
+          "Develop"
+        ]
+      },
+      "information_types": [
+        "design-principle",
+        "prototype"
+      ],
+      "governance": {
+        "publication": "preview-only",
+        "approval": "required"
+      }
     }
   ]
 }
