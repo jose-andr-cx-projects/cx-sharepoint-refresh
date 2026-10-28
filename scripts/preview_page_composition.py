@@ -60,6 +60,9 @@ def compose(config, root):
         if not references:
             raise ValueError(f"Page {pid} has no selected sections")
         output.append({"id": pid, "title": title, "taxonomy": taxonomy,
+                       "work": page.get("work"),
+                       "information_types": page.get("information_types", []),
+                       "governance": page.get("governance"),
                        "sources": references, "markdown": "\n\n".join(rendered) + "\n"})
     return output
 
