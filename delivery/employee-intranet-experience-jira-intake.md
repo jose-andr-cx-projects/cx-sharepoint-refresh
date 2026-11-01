@@ -1,54 +1,46 @@
-# Deliverable proposal: Improving the Employee Intranet Experience
+# Deliverable proposal: Sharing CX intranet design expertise
 
 **Project:** CX SharePoint Refresh  
 **Status:** Proposed Jira intake, not yet created or scheduled in Jira  
 **Prepared:** 2 November 2026  
-**Authority:** Jira for delivery records; Confluence/approved CoM sources for decisions and design guidance. This GitHub file is a staging reference only pending Bitbucket transition.
+**Authority:** Jira for delivery records; Confluence and approved organisational sources for decisions and guidance. This GitHub file is a staging reference pending Bitbucket transition.
 
-## Outcome
-Show how the CX branch supports the Intranet Governance team in improving the organisation-wide employee experience, using the CX refresh as a tested example rather than proposing a parallel governance model.
+## Purpose
+Capture the wider organisational value created through the CX SharePoint Refresh. By sharing the experience, lessons and reusable design examples developed for our own branch, CX can **inform and influence improvements across the employee intranet**.
 
-### Scope and evidence of value
-1. **Hub experience steering:** clarify hub purpose, employee routes, relationship to CoMWeb navigation/search and other authoritative destinations; document decisions for Digital/Intranet Governance review.
-2. **Information architecture:** employee-task labels, shallow hierarchy, page purposes, one primary destination per need, cross-links rather than duplicate content.
-3. **Content writing:** plain-English titles, concise task-led introductions, clear calls to action and ownership/source cues.
-4. **UX and accessibility:** consistent components, responsive navigation, accessibility and practical SharePoint constraints.
-5. **Reusable templates:** minimum viable landing page and Level 2 page patterns, with examples and editable instructions so non-technical branches can adopt them.
+This is a **secondary benefit of improving our branch experience**, not a separate programme to steer or govern CoMWeb.
 
-**Boundaries:** CX provides evidence, patterns and recommendations; the Intranet Governance team owns organisational rules and approval. No claim of governance sign-off or site-wide adoption. Avoid custom development and heavy metadata.
+## What we will share
+- **Hub experience:** lessons about organising information around employee needs and connecting people to the right destinations.
+- **Information architecture:** practical page structures, labels, navigation and links to authoritative content.
+- **Content writing:** plain-English examples that make information easier to find, understand and act on.
+- **UX and accessibility:** patterns and lessons from applying consistent, accessible design in SharePoint.
+- **Reusable templates:** examples of CX landing and content pages that other branches can adapt if useful.
 
-## Epic 1: Intranet Experience Guidance and Reusable Standards
-**Objective:** Capture, validate and hand over reusable guidance based on actual CX design and publishing practice.
+**Our contribution:** Share examples, explain what worked and why, and offer support to Intranet Governance and interested branches. They retain ownership of their site-wide decisions. Do not imply that wider adoption or impact has occurred until evidenced.
 
-### E1-S1: Align the hub experience with the Intranet Governance team
-**Story:** As an intranet governance lead, I want evidence-based recommendations for hub entry points and content destinations so employees can navigate consistently across CoMWeb.
-**Acceptance:** Present CX's employee-needs navigation; explain hub vs branch pages, global search, mega menu and CoMpanion; record decisions, constraints, owners and open questions; do not claim approval before confirmation.
-**Meeting actions:** Resolve 5-versus-6 needs-card design; clarify hub placement and scope; coordinate with Digital/Jasmine.
+## Epic 1: Share CX intranet design learnings and reusable examples
+**Objective:** Make useful outputs from the CX refresh available to inform design choices elsewhere on CoMWeb, with minimal additional effort.
 
-### E1-S2: Define a reusable information architecture pattern
-**Story:** As a content owner, I want a practical rule for structuring pages and linking authoritative information so I can avoid duplication.
-**Acceptance:** Provide a simple hierarchy, page purpose/offer, naming and link rules; map CX homepage plus eight Level 2 destinations; demonstrate at least three employee tasks; identify link and ownership exceptions.
-**Meeting actions:** Reconcile product/tool destinations, hub versus CoMWeb content homes, purple-page inventory and important inbound links.
+### E1-S1: Share CX experience and information architecture lessons
+**Story:** As an intranet colleague, I want to see the CX team's practical lessons on employee-focused hubs, navigation and content structure so I can consider them in my own work.
+**Acceptance:** Summarise key decisions and trade-offs from the CX refresh; share examples of need-based navigation, source linking, search/mega-menu considerations and page hierarchy; capture feedback from the Intranet Governance team without seeking or claiming site-wide decision authority.
 
-### E1-S3: Produce plain-English intranet content guidance
-**Story:** As a branch author, I want examples of headings, summaries and calls to action so employees can find and use information quickly.
-**Acceptance:** Provide before/after CX examples, recommended page sections, accessibility and link-text guidance; identify reviewer and source for each sample.
-**Meeting actions:** Continue priority content rewrite, ownership validation and link-first disposition (update, consolidate, link, archive or retire).
+### E1-S2: Share content and UX best-practice examples
+**Story:** As a colleague creating intranet content, I want simple examples of clear writing and consistent design so I can improve my own pages.
+**Acceptance:** Compile before/after content examples, accessible component patterns and practical lessons from the CX prototype; share in an easy-to-consume format using existing channels.
 
-### E1-S4: Validate UX and SharePoint feasibility
-**Story:** As an intranet designer or publisher, I want accessible, implementable patterns so a consistent employee experience does not depend on custom development.
-**Acceptance:** Document navigation/components/spacing/interaction rules supported by SharePoint; check mobile, keyboard, contrast, links and access with the implementation lead; record workarounds and unresolved constraints.
-**Meeting actions:** Resolve quick links versus popular tools, right-column purpose, card counts, global search, mega menu and authoring access.
+### E1-S3: Offer reusable page templates and record wider influence
+**Story:** As another branch content author, I want adaptable CX page examples so I can reuse proven elements without starting from scratch.
+**Acceptance:** Share a landing-page example and Level 2 page example with brief guidance; record requests, feedback or confirmed reuse by other teams. Distinguish **shared**, **considered** and **adopted**; report only evidenced wider impact.
 
-### E1-S5: Package reusable SharePoint page templates
-**Story:** As another branch's content author, I want two simple templates and a short usage guide so I can implement the patterns without specialist help.
-**Acceptance:** Supply reusable homepage and Level 2 page templates, sample copy, section and ownership cues, dos/don'ts and publication QA checklist; seek governance review before describing them as standards.
-**Meeting actions:** Turn approved CX prototype patterns into copyable resources, not a new technical system.
+## How to evidence the impact
+- **Produced:** CX patterns, examples and templates available.
+- **Shared:** Evidence of handover or discussion with Intranet Governance or other branches.
+- **Influenced:** Feedback or documented decisions referencing CX learnings.
+- **Reused:** Confirmed application of a CX pattern or template elsewhere.
 
-### E1-S6: Test the publishing and governance handoff
-**Story:** As a content owner, I want a clear review and publication path so the new pages stay accurate after launch.
-**Acceptance:** Run one real page change through source confirmation, owner review, approval, publication, link/access/accessibility QA and maintenance handover; log unclear decision rights and SOP improvements.
-**Meeting actions:** Validate the draft publishing SOP with Digital and actual publishing activity.
+A good outcome is not the number of standards CX creates. It is whether the work undertaken for CX helps improve the experience in other parts of the intranet.
 
 ## Epic 2: CX Branch Page Playbacks and Validation
 **Objective:** Capture branch-member reactions to the refreshed pages and translate them into actionable refinements. These are familiarisation/feedback sessions, not formal sign-off. One Jira story per actual scheduled session.
@@ -76,8 +68,7 @@ Show how the CX branch supports the Intranet Governance team in improving the or
 
 ## Sprint preparation and dependencies
 - **Proposed next sprint:** Confirm sprint ID, dates and capacity in Jira; none are asserted here.
-- **First priority:** E1-S1, E1-S2, E1-S4, plus follow-up actions from existing playbacks.
-- **Then:** E1-S3, E1-S5 and E1-S6 based on governance and platform feasibility.
+- **Epic 1:** Share existing CX lessons and examples first (E1-S1, E1-S2), then package lightweight reusable templates and record evidence of influence (E1-S3). No separate site-wide governance or design workstream.
 - **Epic 2:** Preserve each session separately and add verified upcoming interviews as individual stories; avoid treating historic session dates as future appointments.
 - **Existing Jira links to check:** CFT-2973 initiative, CFT-2994 Digital engagement, CFT-2995 SharePoint implications, CFT-3091 completed work, and existing publishing or playback tickets.
 - **Traceability:** Add actual Jira keys and Confluence evidence links only after records exist. Do not maintain a duplicate status backlog in this file.
