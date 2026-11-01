@@ -42,33 +42,35 @@ This is a **secondary benefit of improving our branch experience**, not a separa
 
 A good outcome is not the number of standards CX creates. It is whether the work undertaken for CX helps improve the experience in other parts of the intranet.
 
-## Epic 2: CX Branch Page Playbacks and Validation
-**Objective:** Capture branch-member reactions to the refreshed pages and translate them into actionable refinements. These are familiarisation/feedback sessions, not formal sign-off. One Jira story per actual scheduled session.
+## Epic 2: Deliver CX branch page playback sessions
+**Objective:** Make the effort involved in planning, preparing, coordinating and delivering each CX branch playback visible in Jira. The learning, feedback synthesis and resulting design changes are captured in the refined page designs and existing project documentation, not duplicated in these stories.
 
-### E2-S1: Capture playback of Support Customers with Confidence
-**Session evidence:** 27 October 2026, 10am; Tom, Dan, Brendan Martin and Darany Maokhamphiou contributed. Brooke facilitated; José supported.
-**Story:** As a CX employee, I want to understand where support tools and guidance are located so I can confidently help customers.
-**Acceptance:** Link session notes; record clarity, missing items, labels, destination accuracy and ownership issues; separate actionable improvements from future suggestions; assign follow-ups and link to design changes.
-**Status:** Session completed; ticket creation would be retrospective evidence and follow-up tracking.
+**Story completion evidence:** Session scheduled/invitations managed; appropriate page prototype and walkthrough prepared; session facilitated and discussion supported; immediate follow-up and links to the refined version or working documentation completed. Record actual effort where the team tracks it. Do not claim hours without time records.
 
-### E2-S2: Capture playback of Understand Who Our Customers Are
-**Session evidence:** 27 October 2026 afternoon; Brooke Crawford, Liz Aquino Perez and Kate Johnson.
-**Story:** As a CX employee, I want the customer-understanding page to make its offer and authoritative sources easy to locate.
-**Acceptance:** Link notes; capture discoverability, language, priority resources and source-placement feedback; record design changes and owners.
-**Status:** Session completed; retrospective evidence and follow-up tracking.
+### E2-S1: Prepare and deliver Support Customers with Confidence playback
+**Session:** 27 October 2026, 10am.
+**Work represented:** Coordinate participants and session logistics; prepare the page prototype and walkthrough; facilitate the playback and discussion; capture immediate actions and direct them to the existing refinement workflow; complete session follow-up.
+**Acceptance:** Session delivered; preparation and facilitation work recorded; session reference and refined-page link attached; follow-up complete or handed off. No duplicate learning summary required.
+**Status:** Historic session; prospective Jira entry would record completed effort, subject to checking existing tickets.
 
-### E2-S3: Capture playback of Improve Your Service for Customers
-**Session evidence:** 28 October 2026; Chris, Ross/Roxs, Joe and Brooke contributed.
-**Story:** As a CX employee, I want to find ways to improve service experiences without needing to know the CX team structure.
-**Acceptance:** Link notes; capture comprehension, missing resources, terminology and task pathways; document fixes and open decisions.
-**Status:** Session completed; retrospective evidence and follow-up tracking.
+### E2-S2: Prepare and deliver Understand Who Our Customers Are playback
+**Session:** 27 October 2026, afternoon.
+**Work represented:** Coordinate attendance; prepare relevant page content and presentation; run the walkthrough and discussion; route actions to the page refinement process; complete follow-up.
+**Acceptance:** Session delivered; preparation, facilitation and follow-up evidenced; session reference and refined-page link attached. No duplicate findings write-up.
+**Status:** Historic session; check for existing Jira item.
 
-### Additional planned interviews
-**Unverified:** The available project references do not establish the remaining scheduled session names, participants and dates. Before creating further one-per-interview stories, reconcile the actual meeting roster with Teams/Calendar and existing Jira tickets, to avoid fabricating sessions or duplicating completed work.
+### E2-S3: Prepare and deliver Improve Your Service for Customers playback
+**Session:** 28 October 2026.
+**Work represented:** Coordinate session; prepare prototype and talking points; facilitate the employee walkthrough; organise immediate follow-up and link to the refined version.
+**Acceptance:** Session delivered; preparation, facilitation and follow-up evidenced; session reference and refined-page link attached. No duplicate findings write-up.
+**Status:** Historic session; check for existing Jira item.
+
+### Additional sessions
+Create one story for each **verified** additional session, using the same preparation, delivery and follow-up pattern. Verify the meeting schedule and current Jira before adding tickets. Avoid inventing sessions, participants, dates, hours or retrospective estimates.
 
 ## Sprint preparation and dependencies
 - **Proposed next sprint:** Confirm sprint ID, dates and capacity in Jira; none are asserted here.
 - **Epic 1:** Share existing CX lessons and examples first (E1-S1, E1-S2), then package lightweight reusable templates and record evidence of influence (E1-S3). No separate site-wide governance or design workstream.
-- **Epic 2:** Preserve each session separately and add verified upcoming interviews as individual stories; avoid treating historic session dates as future appointments.
+- **Epic 2:** Record work performed for each verified session, not a second repository of feedback. Add further sessions from the confirmed schedule; avoid treating historic sessions as future appointments.
 - **Existing Jira links to check:** CFT-2973 initiative, CFT-2994 Digital engagement, CFT-2995 SharePoint implications, CFT-3091 completed work, and existing publishing or playback tickets.
 - **Traceability:** Add actual Jira keys and Confluence evidence links only after records exist. Do not maintain a duplicate status backlog in this file.
