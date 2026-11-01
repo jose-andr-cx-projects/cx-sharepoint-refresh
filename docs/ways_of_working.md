@@ -1,7 +1,7 @@
 # Ways of Working
 
 Status: Draft  
-Last updated: 12 October 2026
+Last updated: 2 November 2026
 
 ## Working rule
 
@@ -100,7 +100,7 @@ For the remainder of the refresh, **Jira is the lightweight project progress and
 |---|---|
 | Jira | Epics and selected outcome-level tickets; evidence-linked progress, unresolved dependencies and phase visibility; Project Manager maintains reconciliation |
 | Confluence | Authoritative project narrative: scope, research, decisions, designs, evidence, outcomes, risks and governance; show related Jira keys |
-| GitHub project repository | Versioned Markdown source for project documentation and Confluence publication pipeline; include Jira keys in relevant sections |
+| Controlled project repository (Bitbucket) | Versioned Markdown source for project documentation and the Confluence publication pipeline; include verified Jira keys in relevant sections |
 | Miro / Figma | Actual collaborative synthesis and design work; link relevant outputs from Confluence rather than duplicate |
 | Teams / workshops | Day-to-day coordination and decisions; material outcomes transferred to the appropriate authoritative document |
 | SharePoint | Published employee-facing experience |
@@ -111,7 +111,7 @@ For the remainder of the refresh, **Jira is the lightweight project progress and
 - In each corresponding Jira issue, add a link to its authoritative Confluence page/section (and supporting Miro/Figma artefact only when necessary), a concise evidence/outcome statement, and an outstanding gap if any.
 - Keep Jira issue titles and status transitions aligned to *the actual acceptance criteria*. Creating a document or defining a method does not prove the underlying inventory, feasibility test or agreement is complete.
 - Do not automatically close an epic because several constituent tickets have closed. Record the remaining outcome-level gap.
-- During the next Confluence publication run, verify the Jira tracking lines survive Markdown-to-Confluence transformation. GitHub updates alone do not demonstrate that Confluence has synchronised.
+- During the next Confluence publication run, verify the Jira tracking lines survive Markdown-to-Confluence transformation. Repository updates alone do not demonstrate that Confluence has synchronised.
 
 ### Retrospective questions
 
@@ -125,3 +125,9 @@ For the remainder of the refresh, **Jira is the lightweight project progress and
 
 - **10 October:** documented intent — Jira manages active delivery.
 - **12 October:** operational shift — the team uses collaborative tools to deliver; Project Manager retrospectively reconciles Jira against verified project evidence. Test this lighter model through the next delivery phase and review at retrospective.
+
+## Manual Jira maintenance and publication boundary: 2 November 2026
+
+For this project, the Project Manager will keep Jira updated **manually**. Sprint stories and epics described in project Markdown are proposed planning inputs until entered and verified in Jira. Do not infer issue creation, status changes or assignments from the project documentation or the Confluence publishing run.
+
+The controlled Bitbucket pipeline publishes selected project Markdown to existing Confluence pages after validation. It does not update Jira. Record actual Jira keys in the appropriate published project sections when available, and verify publication separately.
