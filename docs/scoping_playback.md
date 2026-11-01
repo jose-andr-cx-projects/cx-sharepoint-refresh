@@ -118,4 +118,4 @@ Primary evidence: `CX Sharepoint Refresh (BLT)(2).pdf`, pages 2-25.
 - **CFT-2981 — Conduct BLT discovery conversations:** see recorded input and proposed validation decisions above.
 - **CFT-2985 — Confirm the role of CX SharePoint:** the content-home model is a working proposal, not automatically a signed-off outcome.
 
-Add the published Confluence URL to each relevant Jira ticket when available. Do not treat GitHub publication alone as Jira synchronisation.
+Add the published Confluence URL to each relevant Jira ticket when available. Project documentation publication does not synchronise Jira.
