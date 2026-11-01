@@ -42,31 +42,55 @@ This is a **secondary benefit of improving our branch experience**, not a separa
 
 A good outcome is not the number of standards CX creates. It is whether the work undertaken for CX helps improve the experience in other parts of the intranet.
 
-## Epic 2: Deliver CX branch page playback sessions
-**Objective:** Make the effort involved in planning, preparing, coordinating and delivering each CX branch playback visible in Jira. The learning, feedback synthesis and resulting design changes are captured in the refined page designs and existing project documentation, not duplicated in these stories.
+## Epic 2: Deliver CX branch group review sessions
 
-**Story completion evidence:** Session scheduled/invitations managed; appropriate page prototype and walkthrough prepared; session facilitated and discussion supported; immediate follow-up and links to the refined version or working documentation completed. Record actual effort where the team tracks it. Do not claim hours without time records.
+**Objective:** Document the delivery effort involved in each of the six group reviews, including preparation, participant coordination, facilitation and follow-up. Feedback, learnings and resulting design changes are already reflected in the refined page versions and are not duplicated here.
 
-### E2-S1: Prepare and deliver Support Customers with Confidence playback
-**Session:** 27 October 2026, 10am.
-**Work represented:** Coordinate participants and session logistics; prepare the page prototype and walkthrough; facilitate the playback and discussion; capture immediate actions and direct them to the existing refinement workflow; complete session follow-up.
-**Acceptance:** Session delivered; preparation and facilitation work recorded; session reference and refined-page link attached; follow-up complete or handed off. No duplicate learning summary required.
-**Status:** Historic session; prospective Jira entry would record completed effort, subject to checking existing tickets.
+**Common acceptance criteria for each story:** Review materials and relevant prototype prepared; participant coordination completed; group session delivered; immediate follow-up completed or handed over; session reference and relevant refined page linked where available. Record actual effort through the team's normal Jira process, without inventing hours or dates.
 
-### E2-S2: Prepare and deliver Understand Who Our Customers Are playback
-**Session:** 27 October 2026, afternoon.
-**Work represented:** Coordinate attendance; prepare relevant page content and presentation; run the walkthrough and discussion; route actions to the page refinement process; complete follow-up.
-**Acceptance:** Session delivered; preparation, facilitation and follow-up evidenced; session reference and refined-page link attached. No duplicate findings write-up.
-**Status:** Historic session; check for existing Jira item.
+### E2-S1: Prepare and deliver group review 1 (BLT)
+**Session leads:** Mindy + Dennis  
+**Review group:** BLT  
+**Work represented:** Prepare the relevant SharePoint page prototype and walkthrough; coordinate the review with BLT; support or facilitate the discussion; complete session administration and hand off any actions into the existing design refinement process.  
+**Definition of done:** Review held, preparation/delivery/follow-up effort evidenced, and links to session record and refined page added where available.  
+**Scheduling/status:** Verify against actual invites and Jira; the supplied review roster does not establish dates or completion status.
 
-### E2-S3: Prepare and deliver Improve Your Service for Customers playback
-**Session:** 28 October 2026.
-**Work represented:** Coordinate session; prepare prototype and talking points; facilitate the employee walkthrough; organise immediate follow-up and link to the refined version.
-**Acceptance:** Session delivered; preparation, facilitation and follow-up evidenced; session reference and refined-page link attached. No duplicate findings write-up.
-**Status:** Historic session; check for existing Jira item.
+### E2-S2: Prepare and deliver group review 2 (Kate, Chris and Liz)
+**Session leads:** Dennis + Brooke  
+**Review group:** Kate, Chris and Liz  
+**Work represented:** Prepare the relevant SharePoint page prototype and walkthrough; coordinate the review with Kate, Chris and Liz; support or facilitate the discussion; complete session administration and hand off any actions into the existing design refinement process.  
+**Definition of done:** Review held, preparation/delivery/follow-up effort evidenced, and links to session record and refined page added where available.  
+**Scheduling/status:** Verify against actual invites and Jira; the supplied review roster does not establish dates or completion status.
 
-### Additional sessions
-Create one story for each **verified** additional session, using the same preparation, delivery and follow-up pattern. Verify the meeting schedule and current Jira before adding tickets. Avoid inventing sessions, participants, dates, hours or retrospective estimates.
+### E2-S3: Prepare and deliver group review 3 (Roxanne, Elise, Rebecca and Noam)
+**Session leads:** Mindy + Will  
+**Review group:** Roxanne, Elise, Rebecca and Noam  
+**Work represented:** Prepare the relevant SharePoint page prototype and walkthrough; coordinate the review with Roxanne, Elise, Rebecca and Noam; support or facilitate the discussion; complete session administration and hand off any actions into the existing design refinement process.  
+**Definition of done:** Review held, preparation/delivery/follow-up effort evidenced, and links to session record and refined page added where available.  
+**Scheduling/status:** Verify against actual invites and Jira; the supplied review roster does not establish dates or completion status.
+
+### E2-S4: Prepare and deliver group review 4 (Chris, Roxanne and Rachel)
+**Session leads:** Brooke + Jose  
+**Review group:** Chris, Roxanne and Rachel  
+**Work represented:** Prepare the relevant SharePoint page prototype and walkthrough; coordinate the review with Chris, Roxanne and Rachel; support or facilitate the discussion; complete session administration and hand off any actions into the existing design refinement process.  
+**Definition of done:** Review held, preparation/delivery/follow-up effort evidenced, and links to session record and refined page added where available.  
+**Scheduling/status:** Verify against actual invites and Jira; the supplied review roster does not establish dates or completion status.
+
+### E2-S5: Prepare and deliver group review 5 (Ellen, Mirelle and Dan)
+**Session leads:** Brooke + Will  
+**Review group:** Ellen, Mirelle and Dan  
+**Work represented:** Prepare the relevant SharePoint page prototype and walkthrough; coordinate the review with Ellen, Mirelle and Dan; support or facilitate the discussion; complete session administration and hand off any actions into the existing design refinement process.  
+**Definition of done:** Review held, preparation/delivery/follow-up effort evidenced, and links to session record and refined page added where available.  
+**Scheduling/status:** Verify against actual invites and Jira; the supplied review roster does not establish dates or completion status.
+
+### E2-S6: Prepare and deliver group review 6 (Tom, Dan, Brendan and Darany)
+**Session leads:** Brooke + Jose  
+**Review group:** Tom, Dan, Brendan and Darany  
+**Work represented:** Prepare the relevant SharePoint page prototype and walkthrough; coordinate the review with Tom, Dan, Brendan and Darany; support or facilitate the discussion; complete session administration and hand off any actions into the existing design refinement process.  
+**Definition of done:** Review held, preparation/delivery/follow-up effort evidenced, and links to session record and refined page added where available.  
+**Scheduling/status:** Verify against actual invites and Jira; the supplied review roster does not establish dates or completion status.
+
+**Note:** Create one Jira story per listed review. These replace the earlier three session stories in this proposed intake; check live Jira to prevent duplicates. The image provides leads and group membership but not session dates or status.
 
 ## Sprint preparation and dependencies
 - **Proposed next sprint:** Confirm sprint ID, dates and capacity in Jira; none are asserted here.
