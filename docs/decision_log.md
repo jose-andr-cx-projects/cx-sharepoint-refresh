@@ -1,7 +1,7 @@
 # Decision Log
 
 Status: Draft  
-Last updated: 30 September 2026
+Last updated: 11 November 2026
 
 ## Purpose
 
@@ -31,6 +31,9 @@ Record material decisions that affect scope, direction, content placement, desig
 | D-010 | Use current CoMWeb governance direction as a working design input | Confirmed | Digital alignment / current CoMWeb direction | Shapes content placement and authoritative-source decisions |
 | D-011 | Treat CoMWeb as a pathway, not a repository | Proposed | BLT playback evidence | Favors orientation and linking over duplication |
 | D-012 | Use multiple content homes where employee needs differ | Proposed | Employee research and Digital alignment | Supports CoMWeb + Digital Dashboard model |
+
+| D-013 | Adopt a minimum CX publishing SOP that reuses current CoMWeb Site Pages fields and workflows: mandatory Name, Content Editor, Division, Branch; CX operating standard for accountable Team and Description; no new metadata columns for go-live | Proposed CX operating standard; pending CoMWeb/branch validation | CX Site Pages and Intranet Documents screenshots; CoMWeb Editor Training Manual; CX seven-page IA; 11 Nov working agreement | Update `docs/content_governance_and_publishing_sop.md`; confirm fields, owners, permissions and review automation with Jenny |
+| D-014 | Prefer existing CX Intranet Document Set, no additional CX subfolders initially; prioritise Name, Description, Keywords and Resource Type for CoMpanion findability | Proposed; technical validation pending | Intranet Documents screenshot and page-design discussions | Validate Document Set shared metadata and CoMpanion knowledge source/indexing before adoption |
 
 ## Working principle
 
