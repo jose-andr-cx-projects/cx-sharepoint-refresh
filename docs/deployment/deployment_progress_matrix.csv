@@ -1,0 +1,9 @@
+ID,Component,Deployment task,Owner (confirm),Timing,Status,Required evidence,Target date,Completed date,Blocker or next action
+01,Document library,Upload 26 CX files,CX content owner,Before page cutover,Uploaded - PVT outstanding,26-file register and document set URL,,,
+02,Document library,PVT metadata permissions links and CoMpanion retrieval for all 26 documents,CX and publishing team,After upload,Pending,Correct document citations file and metadata checks exceptions,,,
+03,Webpages,CoMpanion UAT baseline against current published pages,CX project team,Before refreshed page cutover,Pending,Fixed prompts answers URLs and scores,,,
+04,Webpages,Publish approved refreshed CX webpages,Authorised production publisher,After approval and UAT baseline,Pending,Approved page register actual URLs publication timestamp link checks,,,
+05,AI instruction,Approve publish instructions with old to new URL exclusion register,CX owner and CoMpanion administrator,At cutover before webpage PVT,Pending,Approved file version legacy map admin confirmation,,,
+06,Webpages,CoMpanion production PVT repeating baseline test questions,CX and publishing team,After new pages and instruction deployment,Pending,New URLs and citation comparison defect log,,,
+07,Legacy coexistence,Keep old pages published but excluded from CoMpanion referrals,Publisher and CoMpanion administrator,From go-live until archival,Pending,Source guidance exclusion behaviour verification and defects,,,
+08,Legacy archiving,Archive legacy pages and verify replacement pathways,Intranet owner and publisher,Within three weeks after go-live subject to approvals,Pending,Archive and links log sign-off,,,
