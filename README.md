@@ -74,3 +74,14 @@ The project is also developing a working content governance and publishing SOP. 
 Keep discovery evidence in the discovery document, future design logic in the design document, operational publishing logic in the governance SOP and material decisions in the decision log. Distinguish confirmed decisions from proposed directions and open questions.
 
 The documentation was initially aligned with `CX Sharepoint Refresh (BLT)(2).pdf` and the project handover on 30 September 2026. Later project working updates should preserve the distinction between confirmed organisational decisions and project working artefacts.
+
+## Production deployment handover (17 November 2026)
+
+The SharePoint Refresh release has three components: **document library files, refreshed CX webpages, and the CoMpanion AI instruction/knowledge-navigation document**. See the [production deployment handover](docs/deployment/deployment_handover.md) and [team progress matrix](docs/deployment/deployment_progress_matrix.csv).
+
+- Uploaded library files: PVT includes metadata, permissions, links, and CoMpanion document retrieval.
+- Refreshed webpages: capture CoMpanion **UAT baseline before production deployment**, repeat scenarios in **PVT after deployment**.
+- AI instruction: direct CoMpanion to new authoritative pages, excluding mapped legacy CX pages while they remain published for up to three weeks post go-live.
+- [Prior documentation audit](docs/deployment/repository_documentation_audit_2026-11-17.md) and [document metadata/PVT validation](docs/deployment/document_metadata_validation.md) identify gaps, source limitations and follow-up checks.
+
+**Mirror control:** These GitHub commits do not establish Bitbucket sync, live Jira status, Confluence publication, SharePoint deployment approval, or completed PVT. Before syncing GitHub to Bitbucket, confirm the latest remote branch diff and run existing pipeline **validate/preview-only**, never automatic publication.
