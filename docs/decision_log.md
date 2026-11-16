@@ -1,7 +1,7 @@
 # Decision Log
 
 Status: Draft  
-Last updated: 11 November 2026
+Last updated: 17 November 2026
 
 ## Purpose
 
@@ -34,6 +34,12 @@ Record material decisions that affect scope, direction, content placement, desig
 
 | D-013 | Adopt a minimum CX publishing SOP that reuses current CoMWeb Site Pages fields and workflows: mandatory Name, Content Editor, Division, Branch; CX operating standard for accountable Team and Description; no new metadata columns for go-live | Proposed CX operating standard; pending CoMWeb/branch validation | CX Site Pages and Intranet Documents screenshots; CoMWeb Editor Training Manual; CX seven-page IA; 11 Nov working agreement | Update `docs/content_governance_and_publishing_sop.md`; confirm fields, owners, permissions and review automation with Jenny |
 | D-014 | Prefer existing CX Intranet Document Set, no additional CX subfolders initially; prioritise Name, Description, Keywords and Resource Type for CoMpanion findability | Proposed; technical validation pending | Intranet Documents screenshot and page-design discussions | Validate Document Set shared metadata and CoMpanion knowledge source/indexing before adoption |
+
+
+| D-015 | Treat the SharePoint Refresh release as three components: uploaded document library resources, refreshed CX webpages and an AI instruction document; CoMpanion document retrieval is only one check within library PVT | Confirmed project deployment approach; production sign-off pending | User deployment decision 17 Nov 2026; `docs/deployment/deployment_handover.md` | Adds handover matrix and discrete verification by component |
+| D-016 | Capture CoMpanion **webpage UAT baseline before** refreshed pages publish; repeat identical questions as **production PVT after** publication | Confirmed project testing approach | User deployment decision 17 Nov 2026; prior 13 Nov meeting record preserved as historical evidence | Gives a pre/post source-navigation comparison without treating document-upload results as a clean baseline |
+| D-017 | Retain legacy CX pages for up to three weeks after go-live while they are retired through authorised process; instruct CoMpanion to omit mapped old URLs and prefer refreshed pages, and verify that behaviour in PVT | Confirmed transition approach; URLs/admin control to be finalised | User deployment decision 17 Nov 2026 | Requires old-to-new URL mapping, instruction admin confirmation, exception handling and post-release archive sign-off |
+| D-018 | Use 26 uploaded CX documents for natural-language document discovery tests within library PVT; distinguish retrieval evidence from proof that metadata caused retrieval | Confirmed test scope; live PVT pending | CoMpanion T01/T02 post-upload observations and user scope decision 16–17 Nov 2026 | Preserve per-file citations/permissions and verify SharePoint columns separately from embedded PDF metadata |
 
 ## Working principle
 
