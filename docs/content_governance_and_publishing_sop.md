@@ -1,9 +1,21 @@
 # CX Content Governance and Publishing SOP
 
 **Status:** CX proposed operating standard — working draft for validation and handover  
-**Updated:** 11 November 2026  
+**Updated:** 17 November 2026 (release exception appended; base SOP remains a working proposal)  
 **Scope:** Refreshed CX pages on the Purple CoMWeb site; linked CX resources in the existing Intranet Documents library  
 **Authority:** Does not replace CoMWeb / Digital governance, permissions, or the authorised publishing workflow
+
+## Go-live document library exception, agreed 17 November 2026
+
+**Decision references:** D-019 and D-020 in `docs/decision_log.md`; meeting evidence in `evidence/2026-11-17-sharepoint-refresh-links-meeting.md`.
+
+For the SharePoint Refresh release only, the team has changed the earlier **flat/no-additional-folder** library proposal to **folder-based grouping** for the CX Segments and Modes suite and Customer Insights Reports. The flat structure with filtered views was not proven in time to support direct links to a subset of files. Reconsider it after release, not during final publishing.
+
+**Filename freeze:** Restore the source package's original, approved CX Segments and Modes filenames and groupings. Do **not** adopt the proposed new naming convention or undertake standardisation-based renames at go-live. Defer the convention recommendation to validation **after the final project sprint**. Normal required metadata checks, page-title review and link verification continue.
+
+**Navigation behaviour:** Individual segment/mode links open the actual PDF; the full suite opens its folder; Customer Insights reports open their own collection. Verify permissions and links after moves. Exact names and grouping require comparison with the original source, not inference from this transcript.
+
+This is a **time-boxed exception** to the document-library architecture recommendation, not a formally approved permanent organisational SOP.
 
 ## 1. Purpose and principles
 
