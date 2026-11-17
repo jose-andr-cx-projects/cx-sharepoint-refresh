@@ -6,9 +6,20 @@
 
 A batch of **26 CX files** was reported prepared and uploaded to the CX Intranet Document Set on 16 November 2026. Includes CX Branch Playbook, service/customer research reports, CXVoices guidance, and Segments and Modes resources. Confirm actual file count, final file names, permissions, and publication approval using the authoritative SharePoint register.
 
+## 17 November release override: library layout and file naming freeze
+
+**Authoritative meeting decision for the release:** See D-019/D-020 in `docs/decision_log.md` and `evidence/2026-11-17-sharepoint-refresh-links-meeting.md`.
+
+- Replace the earlier **flat/no-extra-folder proposal** for affected resource collections with **folders** for the go-live links. This is a time-constrained release choice; a filtered-view design has not yet been proven.
+- Restore the **original approved filenames and grouping** for the CX Segments and Modes resources from their source folder; do not guess the exact names from the transcript.
+- Individual segment and mode cards must open the corresponding **PDF**; the full resource suite card should open its **folder**. Create/use a separate **Customer Insights Reports** collection folder.
+- **Freeze the proposed new document naming convention and any new bulk renaming for this release.** The convention is a deferred recommendation, to be validated after the final sprint rather than adopted by default.
+- Metadata descriptions/keywords and Resource Type remain useful **working metadata validation**, not authority to rename documents or override the original naming.
+- Verify links, permissions and CoMpanion document citations again if file moves alter destinations. Do not assume existing links persist.
+
 ## Publishing metadata working conventions
 
-- Employee-oriented descriptive file names; avoid duplicate copies and misleading `FINAL`/`v2` suffixes.
+- **DEFERRED naming recommendation, frozen for go-live:** employee-oriented descriptive file names and suffix clean-up. Do not apply to the current package; restore existing original names. Review as a potential post-final-sprint convention.
 - Clear **Description** (SharePoint field) for purpose and when to use; intended <=255 characters in the working approach.
 - Search-oriented **Keywords**, employee terms, synonyms and relevant topic vocabulary; intended <=255 characters pending confirmation of field configuration.
 - Use existing SharePoint **Resource Type** choices, not invented taxonomy. Controlled values previously identified: Briefs; Checklist; GPA; Manual; Meetings; Performance; Policy; Position Description; Presentation; Procedure; Publication; Reference; Specification; Surveys; Toolkit; Working Notes.
