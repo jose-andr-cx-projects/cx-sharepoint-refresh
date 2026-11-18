@@ -81,3 +81,19 @@ A full working navigation guide was generated from the seven supplied exports on
 **Artefact:** A revised operational CoMpanion guide was prepared outside the public GitHub staging mirror as `CoMpanion_CX_navigation_guide_PUBLIC_SOURCE_PRIORITY_2026-11-18.md`. It remains subject to CX owner approval, CoMpanion administrator deployment and production PVT. Public GitHub retains this decision and source-routing rule only, not the full internal operational guide.
 
 **Suggested PVT:** Ask for current contact hours, a public holiday exception, after-hours urgent council reporting, an available online transaction and internal mailroom hours. Record the page/URL cited, correct public-vs-internal source, date, answer and pass/partial/fail.
+
+## CoMpanion operating-hours snapshot — 18 November 2026
+
+**Evidence:** Two user-supplied screenshots (one public City of Melbourne contact section, one internal mailroom section). These are source snapshots, not a standing guarantee of future hours. Exact employee-operational details belong in the authorised CoMpanion knowledge guide, not a public repo mirror.
+
+**Public contact snapshot:**
+- Telephone: 03 9658 9658; staffed Monday–Friday 7:30am–6:00pm, excluding public holidays.
+- Melbourne Town Hall Customer Service Centre: 120 Swanston Street; Monday–Friday 8:30am–5:00pm, excluding public holidays.
+- Postal address: GPO Box 1603, Melbourne VIC 3001.
+- Accessibility: National Relay Service TTY 133 677, or speech assistance 1300 555 727, then request 03 9658 9658.
+
+**Internal service snapshot:** Mailroom details and contact channels were supplied separately for inclusion in the controlled operational guide, with distinct hours and source precedence. Do not conflate public mailing address, Town Hall counter, telephone centre and internal mailroom.
+
+**Guidance change:** The working CoMpanion knowledge guide now gives screenshot-confirmed contact hours directly, but the current relevant official public website overrides dated customer-facing values. The internal mailroom owner/system overrides dated internal information. For urgent council after-hours enquiries, check the specific official public-service pathway. Immediate emergency: 000.
+
+**Deployment status:** Working guide prepared as `CoMpanion_CX_navigation_guide_VERIFIED_CONTACT_HOURS_2026-11-18.md`; approval, deployment and production scenario PVT remain unverified.
