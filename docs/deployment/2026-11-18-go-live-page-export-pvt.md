@@ -41,3 +41,31 @@ A full working navigation guide was generated from the seven supplied exports on
 5. Confirm sign-off and record actual outcomes in Jira/Confluence, then reconcile with the authorised Bitbucket source.
 
 **Source boundary:** CoMWeb/SharePoint, CoMpanion runtime, Jira and approved organisational records govern actual release and PVT truth. This GitHub file is staging evidence only, NOT proof of Bitbucket sync, Confluence publication, PVT sign-off or CoMpanion deployment.
+
+
+## T0 — Page Analytics capture (18 November 2026)
+
+**Evidence:** Eight user-supplied screenshots of SharePoint Page Analytics: one CoMWeb site homepage and seven refreshed CX pages. All screenshots have the **Last 7 days** filter selected and display 12–18 November 2026. **T0 is a mixed pre-/post-cutover snapshot**, not a clean first-week production performance measure, because the reported cutover was 18 November at 10:30am AEDT.
+
+| Page | Unique viewers, last 7 days | Total views, last 7 days | Average time per user |
+|---|---:|---:|---:|
+| CoMWeb homepage (context/control, not a CX page) | Not reliably captured as a period total; 1.2K tooltip for 12 Nov UTC | 23K (rounded) | 8m 36s |
+| Customer Experience (CX L1) | 15 | 58 | 2m 26s |
+| Understand who our customers are | 5 | 39 | 3m 19s |
+| Act on customer data and feedback | 5 | 64 | 3m 42s |
+| Get training and grow your skills | 5 | 32 | 5m 07s |
+| Get help delivering customer service | 5 | 34 | 3m 44s |
+| Connect with the CX team | 5 | 50 | 4m 11s |
+| Improve your service for customers | 5 | 33 | 4m 44s |
+| **Seven CX pages combined (page-instance sum)** | **45** | **310** | **Do not sum/average without visit-level weights** |
+
+**Interpretation controls:**
+- The 45 unique-viewer figure is a sum of page-level values, **not 45 distinct people across the seven-page experience**; cross-page users can be counted multiple times.
+- The CoMWeb 1.2K tooltip is tied to **Thursday 12 November 2026 UTC**, not established as the overall last-seven-days unique-viewer total. Homepage total views are rounded (23K), so avoid precise site-to-CX percentage comparisons.
+- Page Analytics shows increases against the preceding seven days for several pages, but pre-launch preview/editor/test activity may be present. Do not interpret those percentage movements, high views per viewer, or time-on-page as launch success or employee task completion.
+- Analytics is **usage context**, not publication approval, functional PVT, accessibility testing, correct-link validation or CoMpanion routing validation.
+- All screenshots were captured in the **SharePoint edit-mode interface**; actual employee-access checks still require non-editor verification.
+
+**Next comparable measurement:** Capture a complete post-launch seven-day window on **25 November 2026** (or later once the reporting window excludes pre-launch activity), retaining matching filters and the same eight page definitions. Check unique viewers, total views, per-page engagement, and — where instrumentation permits — journeys from CoMWeb to CX pages and onwards to authoritative resources. Mark CoMWeb-to-CX discovery as an **aspirational metric**, not measurable from the supplied screenshots alone.
+
+**Status:** Analytics evidence recorded; no page analytics result constitutes functional PVT pass or CoMpanion deployment verification.
