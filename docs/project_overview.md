@@ -28,7 +28,7 @@ The current project question is:
 - Eight deliverable groups prepared for retrospective effort calibration; no validated person-day estimates.
 - Proposed closure 16 December: [closure plan](deployment/project_closure_plan_2026-11-19.md), [next steps](../delivery/next-steps.md), [feedback](deployment/2026-11-23-feedback-triage-backlog.md), [effort review](deployment/effort_by_deliverable_working_review_2026-11-23.md).
 
-GitHub is staging evidence; SharePoint, CoMpanion runtime, Jira and approved organisational records remain authoritative. No live system acceptance or sync is asserted.
+SharePoint and CoMpanion runtime provide operational verification evidence; Jira governs delivery status, and approved organisational records govern formal decisions and acceptance. This working overview does not establish formal production acceptance or completion.
 
 ## Project outcome
 
