@@ -1,13 +1,13 @@
 # CX SharePoint Refresh
 
-Status: Draft  
+Status: Working closure overview; formal acceptance pending  
 Sponsor: Tanya Wolkenberg  
 Project Lead: Dennis Sartorello  
 Project Manager: José Andrade  
 UX Lead: Mindy Nam  
 Implementation Lead: Brooke Crawford  
-Current phase: Define and Develop (23 September–13 October 2026)  
-Last updated: 30 September 2026
+Current phase: Post-go-live stabilisation and closure  
+Last updated: 24 November 2026
 
 ## Summary
 
@@ -18,6 +18,17 @@ The work is not simply a visual refresh. The underlying problem is that CX infor
 The current project question is:
 
 > How might we make CX information, tools and resources easier to understand, find and use, so that employees can confidently access what they need and content remains manageable over time?
+
+## Delivery status and evidence — 24 November
+
+- Seven refreshed pages (L1 + six L2) reported live 18 November at 10:30 AEDT; static exports inspected, including 52 editorial-card configurations and 30 internal quick-link instances. Functional employee access and link checks remain unverified.
+- 26 library files reported uploaded; two CoMpanion retrieval observations documented, but complete library PVT and guide deployment are not established.
+- T0: 310 page views and 45 summed page-level unique viewers across seven pages, 12–18 November; mixed pre/post-launch activity, not distinct people or benefit evidence. Collect clean T1 on/after 25 November.
+- Six feedback submissions yielded seven proposed actions (three priority checks); reproduction and ownership pending.
+- Eight deliverable groups prepared for retrospective effort calibration; no validated person-day estimates.
+- Proposed closure 16 December: [closure plan](deployment/project_closure_plan_2026-11-19.md), [next steps](../delivery/next-steps.md), [feedback](deployment/2026-11-23-feedback-triage-backlog.md), [effort review](deployment/effort_by_deliverable_working_review_2026-11-23.md).
+
+GitHub is staging evidence; SharePoint, CoMpanion runtime, Jira and approved organisational records remain authoritative. No live system acceptance or sync is asserted.
 
 ## Project outcome
 
@@ -114,4 +125,4 @@ CoMWeb should provide enough context to orient employees and then connect them t
 
 ## Source
 
-Primary evidence for this update: `CX Sharepoint Refresh (BLT)(2).pdf`, September 2026, especially pages 2-24.
+Primary evidence for the original discovery narrative: `CX Sharepoint Refresh (BLT)(2).pdf`, September 2026, especially pages 2-24.

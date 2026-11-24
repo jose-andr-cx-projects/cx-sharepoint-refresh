@@ -91,7 +91,7 @@ The assistant did **not** access Jira and no live issue transitions or comments 
 | Document library preparation/upload | 26 uploaded, PVT pending | Close upload-only ticket after register confirmation; separate/retain PVT checklist |
 | Site Pages, link, metadata and permissions PVT | Outstanding | Maintain/open PVT item with defects and acceptance evidence |
 | CoMpanion navigation/instruction | Working guide prepared; approval, activation and retrieval checks unverified | Keep In Progress / To Do based on actual scope; admin sign-off needed |
-| Feedback survey | Form/launch invitation evidenced; responses and operational triage not independently verified | Verify URL, owner, live intake, feedback-to-action path |
+| Feedback survey | Form/launch invitation evidenced; six submissions supplied and seven proposed actions documented; operational triage not independently verified | Verify URL, owner, live intake, feedback-to-action path |
 | Governance SOP / BAU transition | Draft, approvals and owner acceptance pending | Keep In Progress; handover outputs in closure sprint |
 | Retrospective, executive summary, recommendations, artefact register and close-out | Proposed new closure activities | Add to **next appropriate sprint or closure epic** after checking current Jira board |
 
@@ -113,3 +113,16 @@ The assistant did **not** access Jira and no live issue transitions or comments 
 - [ ] Project closure accepted by accountable lead/sponsor or outstanding exceptions documented.
 
 **Closure rule:** The project can finish with a small acknowledged residual BAU backlog, but not by silently relabelling incomplete PVT, unapproved knowledge instructions or missing ownership as Done.
+
+## 24 November alignment — handover readiness
+
+| Gate | Evidence available | Remaining acceptance evidence |
+|---|---|---|
+| Pages and library | [Static exports and T0](2026-11-18-go-live-page-export-pvt.md); [library diagnostics](document_metadata_validation.md) | Authorised employee PVT, approved register, actual link/permission results |
+| CoMpanion | Two diagnostic retrieval observations; working navigation guidance | Approved deployed version, fixed scenario results and legacy avoidance |
+| Feedback | [Seven proposed items from six submissions](2026-11-23-feedback-triage-backlog.md) | W1 reproduce three P1 checks; W2 assign/disposition all seven in Jira; residual owners and due dates for BAU |
+| Effort and lessons | [Eight deliverable groups](effort_by_deliverable_working_review_2026-11-23.md) | W2 team calibration and 3–5 agreed lessons; W3 include findings in executive pack without unsupported savings claims |
+| Measurement | T0 mixed window | Clean T1 on/after 25 Nov and qualitative interpretation |
+| Governance and closure | Working SOP, decision log and proposed closure checklist | Named BAU owners, agreed review cadence, legacy retirement or accepted exception, approved organisational records and sponsor/lead acceptance |
+
+All gates remain open until evidence is recorded. Use this existing plan as the handover index rather than creating parallel registers. W4 reconcile approved organisational sources before any controlled publication. No external sync or closure is asserted.

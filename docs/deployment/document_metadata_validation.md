@@ -40,3 +40,7 @@ These are working rules and observations, not evidence the exact fields are conf
 Run **one natural-language retrieval scenario for each of 26 uploaded documents**, recording the exact question, expected filename, CoMpanion answer, actual source URL, pass/partial/fail, and issues. PVT also checks that files open for intended staff, SharePoint columns match approved register, library links resolve, and confidential material is permissioned appropriately. Webpage-only answers are **not passes** for file-specific PVT.
 
 The webpage CoMpanion **UAT baseline** and **post-deployment PVT** are separate activities under the webpage component of the SharePoint release (see `deployment_handover.md`). Do not use the earlier 8-question generic baseline as evidence of a pre-document-upload state.
+
+## 24 November reconciliation
+
+User-reported library PVT completion is a status report, not independently established item-level coverage. Preserve T01/T02 as diagnostics (7/8 each); do not relabel them as a pre-upload control or full production pass. Obtain the approved 26-item register and actual test outcomes including exact citations, permissions and openability; verify final filenames after the release override. Mark unverified items not tested/unknown rather than pass. See [page PVT](2026-11-18-go-live-page-export-pvt.md) and [closure gates](project_closure_plan_2026-11-19.md). No guide deployment or external sync is asserted.

@@ -97,3 +97,7 @@ A full working navigation guide was generated from the seven supplied exports on
 **Guidance change:** The working CoMpanion knowledge guide now gives screenshot-confirmed contact hours directly, but the current relevant official public website overrides dated customer-facing values. The internal mailroom owner/system overrides dated internal information. For urgent council after-hours enquiries, check the specific official public-service pathway. Immediate emergency: 000.
 
 **Deployment status:** Working guide prepared as `CoMpanion_CX_navigation_guide_VERIFIED_CONTACT_HOURS_2026-11-18.md`; approval, deployment and production scenario PVT remain unverified.
+
+## Evidence reconciliation — 24 November 2026
+
+Seven-page static inspection is complete for the supplied exports, not functional PVT. Two earlier CoMpanion document retrieval observations (T01/T02, each reported 7/8) are recorded in [library validation](document_metadata_validation.md); they do not establish webpage UAT/PVT or 26/26 library coverage. User continuity reports library testing activity completed, but no item-level result register or acceptance evidence was supplied for this reconciliation; retain full coverage as unverified. The team test script is a proposed scenario set, not execution evidence. For closure, reconcile actual per-item results, citation/permission checks, guide deployment and authorised employee page testing in organisational systems. Record pass/partial/fail/not tested, evidence date, owner and defect reference. T1 is due on/after 25 November, not yet established.

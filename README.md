@@ -1,5 +1,16 @@
 # CX SharePoint Refresh
 
+## Current status — 24 November 2026
+
+**Phase: post-go-live stabilisation and closure.** Seven refreshed pages reported live on 18 November at 10:30 AEDT; seven static exports inspected. A 26-file upload was reported. Functional acceptance remains open. Six feedback submissions yielded seven proposed actions; effort review is prepared for team calibration. Proposed closure: 16 December, subject to acceptance.
+
+- [Current next steps](delivery/next-steps.md)
+- [Closure plan and handover gates](docs/deployment/project_closure_plan_2026-11-19.md)
+- [Page PVT and analytics](docs/deployment/2026-11-18-go-live-page-export-pvt.md)
+- [Library PVT evidence](docs/deployment/document_metadata_validation.md)
+- [Feedback backlog](docs/deployment/2026-11-23-feedback-triage-backlog.md)
+- [Effort review](docs/deployment/effort_by_deliverable_working_review_2026-11-23.md)
+
 ## Bitbucket-native project navigation (2026-10-26)
 
 This is the intended CoM Bitbucket portfolio structure, staged in GitHub before approved transfer. Follow this map rather than assuming the repository is synchronised with Bitbucket.
@@ -41,7 +52,7 @@ Read the [project overview](docs/project_overview.md) for the purpose, team, evi
 
 ## Delivery phases
 
-As at 7 October 2026, the planned phase is **Define and Develop**. Dates and phase names are the planning reference.
+The following is the historical baseline plan, not current status. The proposed closure window is 19 November–16 December 2026.
 
 | Dates (2026) | Phase |
 |---|---|
@@ -63,9 +74,9 @@ The emerging experience follows:
 
 Working principles are employee needs first, one authoritative source and multiple ways in. Link to existing authoritative content where appropriate.
 
-The proposed Customers and Communities hub, final information architecture, content placement, ownership and implementation approach still require validation. Current CoMWeb governance guidance and Sally’s preliminary framework remain provisional.
+The seven exported pages establish the implemented page structure; broader hub direction, formal ownership and functional acceptance remain subject to validation. Current CoMWeb governance guidance and Sally’s preliminary framework remain provisional.
 
-The project is also developing a working content governance and publishing SOP. It will be tested through Deliver 1.0 so that governance, approval and maintenance controls are informed by real publishing activity before transition to business-as-usual.
+The working publishing SOP is available for closure review and BAU adoption; formal ownership and approval remain outstanding.
 
 ## How this documentation is used
 

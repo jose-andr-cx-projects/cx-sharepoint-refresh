@@ -7,7 +7,7 @@
 ## How to use this review
 
 1. Start from the recorded output/evidence inventory below.
-2. In a short cross-functional estimation session, assign **team person-days** to each deliverable across five work types: **research/alignment**, **design/content**, **build/configuration**, **coordination/review**, and **testing/rework**. A person-day means one person's day of effort, not a calendar day. Capture rework as a subset of the relevant effort, never add it twice.
+2. In a short cross-functional estimation session, assign **team person-days** to each deliverable across four mutually exclusive categories: **direct research/design/build**, **coordination/review**, **QA/testing**, and **rework**. A person-day means one person's day of effort, not a calendar day. Allocate rework only to the rework category, excluding it from the other three categories; distinguish avoidable rework from purposeful iteration.
 3. Use 0.5-day increments and a confidence tag (high/medium/low); include approximate involvement and work outside meetings. If evidence is insufficient, mark **unknown**, not zero.
 4. Attribute shared meetings to the deliverables they actually supported; do not duplicate the same meeting across every stream. Treat project-wide ceremonies separately under coordination.
 5. Discuss 2–3 efficiency hypotheses with the team using observed examples; don't present them as proven savings without measured time.
@@ -30,7 +30,7 @@
 
 ## Proposed effort capture (blank for team validation)
 
-Fill in estimates only after team discussion. **Total = direct + coordination + QA + rework; rework is recorded separately to avoid double counting.** Shared effort must be allocated once.
+Fill in estimates only after team discussion. **Total = direct + coordination + QA + rework; the four categories are mutually exclusive; exclude rework from direct, coordination and QA.** Shared effort must be allocated once.
 
 | Deliverable | Direct research/design/build (days) | Coordination/reviews (days) | QA/testing (days) | Rework (days) | Total (days) | Confidence |
 |---|---:|---:|---:|---:|---:|---|
@@ -86,3 +86,5 @@ Only render the chart when time estimates have been validated; blank or unknown 
 - `docs/deployment/2026-11-23-feedback-triage-backlog.md`, `docs/deployment/project_closure_plan_2026-11-19.md` — feedback/closure.
 
 **Authority caveat:** GitHub is an interim staging reference; actual effort, Jira issue timing, approvals and publication history must be validated against organisational sources. This note is not a Bitbucket or Confluence update.
+
+**Closure use (24 November):** Calibrate during W2 (26 Nov–2 Dec proposed), consolidate validated totals and lessons in the W3 executive summary, and retain unknowns rather than assuming zero. See [closure plan](project_closure_plan_2026-11-19.md).

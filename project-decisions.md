@@ -5,3 +5,5 @@
 | 2026-10-26 | Stage Bitbucket-native documentation navigation in GitHub for later CoM import | Staging, not operational approval | Portfolio architecture decision | Verify CoM sources and permissions |
 
 Distinguish proposals, validated findings, approved decisions and superseded directions. Do not substitute this file for formally recorded Confluence decisions.
+
+For substantive project decisions, including release overrides D-019/D-020 and deferred naming rules, navigate to the existing [detailed decision log](docs/decision_log.md). This staging index does not duplicate or supersede it.
