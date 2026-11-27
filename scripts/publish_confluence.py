@@ -81,8 +81,8 @@ targets = {
     'SP-Refresh - Project Management': [
         'project_overview.md',  # Executive view; detailed registers remain versioned in Bitbucket.
     ],
-    'SP-Refresh - Discovery and Content Audit': ['discovery_and_content_audit.md'],
-    'SP-Refresh - Experience and Content Design': ['experience_and_content_design.md'],
+    'SP-Refresh - Discovery and Content Audit': ['discovery_executive.md'],
+    'SP-Refresh - Experience and Content Design': ['experience_design_executive.md'],
     'SP-Refresh - Stakeholder Playbacks': ['scoping_playback.md'],
 }
 
