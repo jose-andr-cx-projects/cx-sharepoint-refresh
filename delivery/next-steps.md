@@ -1,6 +1,6 @@
 # Project next-step brief
 
-**As at:** 24 November 2026  
+**As at:** 27 November 2026  
 **Phase:** Reported go-live → stabilisation and project closure planning.
 
 Seven refreshed CX pages were reported live 18 November at 10:30am AEDT. A 26-document batch was reported uploaded. Production PVT, CoMpanion deployment and final owner acceptance remain unverified.
@@ -23,3 +23,7 @@ Six Microsoft Forms submissions have been de-identified into seven proposed impr
 ## Closure preparation — 24 November
 
 Use the [effort review](../docs/deployment/effort_by_deliverable_working_review_2026-11-23.md) in the proposed W2 retrospective: validate eight outputs, estimate person-days once, identify purposeful iteration versus avoidable rework and agree three improvements. Collect clean T1 from 25 November or later. Use the closure plan as the handover index; verify BAU owners, outstanding PVT, residual feedback, legacy retirement and acceptance in authoritative systems. No new Jira state or completion is asserted.
+
+## 27 November — resource curation feasibility and closure coordination
+
+Native dynamic intent filtering demonstrated on an existing draft page; resource gallery and intent selector styling explored. See [dated prototype evidence](../docs/prototypes/2026-11-26-intent-led-resource-curation-poc.md). This is an optional enhancement, not a production approval or closure dependency. Next prototype step: validate multiple-intent membership, reset, links, employee permissions and library comparator; confirm inherited list-heading workaround. The weekly working update reported sprint-task updates and consolidation of outstanding activities and feedback for closure; reconcile these against live Jira rather than assuming status. Closure-critical next action and acceptance gates above remain unchanged; clean T1 evidence is still to be verified.
