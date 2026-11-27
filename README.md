@@ -1,6 +1,6 @@
 # CX SharePoint Refresh
 
-## Current status — 24 November 2026
+## Current status — 27 November 2026
 
 **Phase: post-go-live stabilisation and closure.** Seven refreshed pages reported live on 18 November at 10:30 AEDT; seven static exports inspected. A 26-file upload was reported. Functional acceptance remains open. Six feedback submissions yielded seven proposed actions; effort review is prepared for team calibration. Proposed closure: 16 December, subject to acceptance.
 
@@ -10,6 +10,7 @@
 - [Library PVT evidence](docs/deployment/document_metadata_validation.md)
 - [Feedback backlog](docs/deployment/2026-11-23-feedback-triage-backlog.md)
 - [Effort review](docs/deployment/effort_by_deliverable_working_review_2026-11-23.md)
+- [Intent-led resource curation prototype — 26–27 November](docs/prototypes/2026-11-26-intent-led-resource-curation-poc.md) — native dynamic filtering demonstrated on a draft page; optional enhancement, not a closure dependency.
 
 ## Bitbucket-native project navigation (2026-10-26)
 
