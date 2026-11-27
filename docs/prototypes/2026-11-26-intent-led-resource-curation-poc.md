@@ -1,8 +1,8 @@
 # Intent-led resource curation | Customer Segments prototype
 
 **Date:** 26 November 2026
-**Status:** Proposed feasibility experiment; not approved for production.
-**Scope:** One sandbox/test page, one prototype list, existing library comparator. No production changes.
+**Status:** Draft-page feasibility demonstrated 27 November; not approved for production.
+**Scope:** Existing page in draft, prototype resource and intent-selector lists, existing library comparator. No production publication claimed.
 
 ## Design challenge
 
@@ -91,7 +91,7 @@ Broken links: flag and withdraw or repair; avoid stale recommendations. Test res
 
 ## Feasibility test script
 
-All outcomes initially Not tested. Record date, role, actual result, elapsed time, evidence location in authorised systems, defect and next action.
+Initial test plan below; see the dated implementation evidence for observed outcomes. Record date, role, actual result, elapsed time, evidence location in authorised systems, defect and next action.
 
 | ID | Test | Expected outcome |
 |---|---|---|
@@ -126,3 +126,30 @@ Technical references to verify in tenant:
 - https://support.microsoft.com/en-au/sharepoint/documents-and-library/add-a-link-in-a-document-library
 
 This is a staged proposal in GitHub; compare with current approved Bitbucket sources before transfer. No approval, tenant configuration, production publication, CoMpanion list retrieval, Jira update or Confluence sync is claimed. Keep experiment outside closure-critical work unless explicitly approved.
+
+
+## Implementation evidence — 26–27 November 2026
+
+**Status:** Working draft-page feasibility prototype demonstrated in an editor session; not production-approved or employee-validated. Evidence is from the working-session screenshots and discussion, not an independent tenant inspection.
+
+| Area | Observed progress | Remaining validation |
+|---|---|---|
+| Page | New-page creation unavailable to the editor; used an existing page in draft instead | Confirm approved test location and standard employee access before publication |
+| Resource catalogue | SharePoint list configured and populated for the Customer Segments and Modes experiment | Verify authoritative destinations, metadata completeness and permissions |
+| Intent selector | Separate intent list connected to resource list using native dynamic filtering; selecting an intent displayed matching resources on the draft page | Test all intents, reset/default state and multiple-intent membership systematically |
+| Choice values | Initial mismatch corrected by aligning independent EmployeeNeed choices; Playbook then appeared in filtered results | Validate consistent exact values across both lists; do not assume full many-to-many support |
+| Presentation | Gallery/card formatting iterated; intent-selector styling explored using list formatting | Final appearance, links, keyboard and mobile behaviour remain to be checked |
+| Web part headings | Current editor UI inherits list name; no editable title or hide-title control found | Proposed user-facing list names: “What are you trying to achieve?” and “Explore relevant resources”; rename not confirmed; retest connection if renamed |
+
+### Feasibility test status
+- F01: Partial pass — list embedded on existing draft page; normal employee access not tested.
+- F02: Partial pass — native dynamic intent filtering demonstrated and one choice mismatch corrected; complete fixture matrix and many-to-many behaviour not verified.
+- F03–F12: Not formally signed off; no measured timing, library comparator result, access/accessibility validation or CoMpanion retrieval evidence recorded here.
+
+### Design learning and next action
+Native list-to-list filtering is a credible low-code path for presenting resources by employee intent independently of storage location. It is not yet evidence that the experience is easier to use or cheaper to maintain than the library comparator. Keep original filenames, folders and authoritative resource locations unchanged. No SPFx or custom application is required for the demonstrated interaction.
+
+Next contained increment: complete a small intent-to-resource test matrix, including a resource tagged to two intents, all-intents/reset behaviour and direct links; then verify employee access and compare maintenance with the library approach. Confirm whether user-facing list renaming resolves inherited headings without breaking the connection. Record exact formatting JSON only after the working version is recovered and sanitised.
+
+### 27 November project coordination
+The working update reported the dynamic-list proof of concept, findability exploration, refreshed project documentation, sprint-task updates and consolidation of outstanding activities and feedback for closure. These are reported coordination activities, not independent confirmation of Jira or production status. Keep the prototype as an optional enhancement opportunity, separate from closure-critical PVT, legacy retirement, analytics T1, feedback remediation and BAU acceptance. No production publication or cross-platform synchronisation is asserted.
