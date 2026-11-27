@@ -84,11 +84,29 @@ targets = {
     ],
     'SP-Refresh - Discovery and Content Audit': ['discovery_and_content_audit.md'],
     'SP-Refresh - Experience and Content Design': ['experience_and_content_design.md'],
-    'SP-Refresh - Scoping Playback': ['scoping_playback.md'],
+    'SP-Refresh - Stakeholder Playbacks': ['scoping_playback.md'],
 }
 
 
 def find_unique(title):
+    # Controlled rename of the existing approved page, not a new target.
+    # Accept either title on that exact page so validation and reruns are safe.
+    if title == 'SP-Refresh - Stakeholder Playbacks':
+        page = api('GET', '/wiki/api/v2/pages/1575845898')
+        if (str(page.get('id')) != '1575845898'
+                or str(page.get('spaceId')) != space_id
+                or page.get('status') != 'current'
+                or page.get('title') not in (
+                    'SP-Refresh - Scoping Playback', title)):
+            raise RuntimeError('Stakeholder Playbacks page identity mismatch; stopping')
+        # Ensure the desired title is not already used by another current page.
+        items = all_results('/wiki/api/v2/pages?' + urlencode({
+            'space-id': space_id, 'title': title, 'status': 'current', 'limit': 100,
+        }))
+        if any(item.get('title') == title and str(item.get('id')) != '1575845898'
+               for item in items):
+            raise RuntimeError('Stakeholder Playbacks title collision; stopping')
+        return page
     items = all_results('/wiki/api/v2/pages?' + urlencode({
         'space-id': space_id,
         'title': title,
@@ -174,7 +192,7 @@ else:
     # Publishing replaces the full body of each existing Confluence page.
     for title, page, body in resolved:
         current = api('GET', f'/wiki/api/v2/pages/{page["id"]}?body-format=storage')
-        if str(current.get('spaceId')) != space_id or current.get('title') != title:
+        if str(current.get('spaceId')) != space_id or current.get('title') != page.get('title'):
             raise RuntimeError(f'Page identity changed for {title}; stopping')
         version = current['version']['number']
         commit = html.escape(os.environ.get('BITBUCKET_COMMIT', 'unknown'))
