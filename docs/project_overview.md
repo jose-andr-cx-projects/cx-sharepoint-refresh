@@ -7,7 +7,7 @@ Project Manager: José Andrade
 UX Lead: Mindy Nam  
 Implementation Lead: Brooke Crawford  
 Current phase: Post-go-live stabilisation and closure  
-Last updated: 24 November 2026
+Last updated: 27 November 2026
 
 ## Summary
 
@@ -29,6 +29,37 @@ The current project question is:
 - Proposed closure 16 December: [closure plan](deployment/project_closure_plan_2026-11-19.md), [next steps](../delivery/next-steps.md), [feedback](deployment/2026-11-23-feedback-triage-backlog.md), [effort review](deployment/effort_by_deliverable_working_review_2026-11-23.md).
 
 SharePoint and CoMpanion runtime provide operational verification evidence; Jira governs delivery status, and approved organisational records govern formal decisions and acceptance. This working overview does not establish formal production acceptance or completion.
+
+## Current sprint objectives — 26 November–2 December 2026
+
+Working sprint objectives (confirm exact sprint dates and ticket acceptance criteria in Jira): validate findability and consolidate outstanding activities for closure.
+
+| Objective | Output / progress |
+|---|---|
+| Explore dynamic resource curation | Native intent-based filtering demonstrated on a draft SharePoint page; gallery and selector styling explored. Validate multi-intent matching, reset, links and employee access. Optional enhancement, not a closure dependency. |
+| Evaluate employee findability | Test representative employee tasks; compare resource catalogue with existing library approach; distinguish usability from technical feasibility. |
+| Consolidate feedback and outstanding activities | Seven proposed improvements from six submissions; reproduce priority issues, assign owners and reconcile sprint tasks in Jira. |
+| Review delivery efficiency | Calibrate effort across eight deliverable groups with the team; identify purposeful iteration and avoidable rework; record lessons. |
+| Prepare closure and handover | Refresh project documentation, consolidate residual work, prepare retrospective, executive summary, recommendations and artefact register. |
+
+## Post-implementation plan — 19 November–16 December 2026
+
+Proposed four-week closure window; completion and acceptance remain subject to evidence and accountable owner agreement.
+
+| Week | Focus | Activities and exit evidence |
+|---|---|---|
+| 19–25 Nov | Stabilise and verify | Seven-page employee PVT, 26-resource register and permissions checks, CoMpanion guide and retrieval scenarios, feedback triage, clean post-launch analytics T1. Outstanding checks carry forward. |
+| 26 Nov–2 Dec | Evaluate and learn | Findability testing, retrospective, effort calibration, feedback prioritisation and ownership; capture 3–5 improvement actions. |
+| 3–9 Dec | Consolidate and transition | Executive summary, recommendations, delivered artefact register, benefits evidence, publishing SOP and BAU owner review; legacy page retirement subject to approval. |
+| 10–16 Dec | Accept and close | Executive playback, Jira reconciliation, residual backlog handover, accepted risks and formal lead/sponsor acceptance or explicit exceptions. |
+
+### Closure acceptance criteria
+
+- Verify page and resource access, links, accessibility and CoMpanion retrieval; record defects or accepted exceptions.
+- Report clean T1 analytics and employee feedback with limitations; do not equate views with successful tasks.
+- Complete retrospective, executive summary, recommendations and delivered artefact register.
+- Confirm BAU owners, publishing review cadence, legacy retirement and residual backlog ownership.
+- Reconcile Jira delivery status and approved organisational records; record accountable closure acceptance.
 
 ## Project outcome
 
