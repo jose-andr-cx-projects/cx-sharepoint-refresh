@@ -147,6 +147,19 @@ def render(filenames):
     )
 
 
+# Content coverage regression gate: a successful transfer must also include
+# the active project-management narrative. Keep this check in both modes.
+required_project_management_sections = (
+    'Current sprint objectives',
+    'Post-implementation plan',
+    'Closure acceptance criteria',
+)
+project_management_source = Path('docs/project_overview.md').read_text(encoding='utf-8')
+for heading in required_project_management_sections:
+    if not re.search(r'(?m)^#{2,3} ' + re.escape(heading) + r'(?:[ \t]|$)', project_management_source):
+        raise RuntimeError(f'Project Management content coverage failed: missing {heading}')
+print('Project Management content coverage passed: sprint, post-implementation, closure.')
+
 # Resolve all targets and source documents before any writes.
 resolved = [(title, find_unique(title), render(names)) for title, names in targets.items()]
 for title, page, body in resolved:
