@@ -79,8 +79,7 @@ if space_id != EXPECTED_SPACE_ID:
 
 targets = {
     'SP-Refresh - Project Management': [
-        'project_overview.md', 'scope_and_delivery_plan.md',
-        'ways_of_working.md', 'decision_log.md', 'risk_and_dependency_log.md',
+        'project_overview.md',  # Executive view; detailed registers remain versioned in Bitbucket.
     ],
     'SP-Refresh - Discovery and Content Audit': ['discovery_and_content_audit.md'],
     'SP-Refresh - Experience and Content Design': ['experience_and_content_design.md'],
